@@ -1,3 +1,64 @@
-git checkout main
-git merge contributor/patch-1
-git push origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Sign Up for Our Gym</h1>
+
+        <form id="signupForm" onsubmit="return validateSignupForm()">
+            <!-- Name -->
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+
+            <!-- Membership Type -->
+            <div class="mb-3">
+                <label for="membership" class="form-label">Membership Plan</label>
+                <select class="form-select" id="membership">
+                    <option value="">Select Membership Plan</option>https://youtu.be/YuyMZrYQN2k?si=vzSWBSTGuEjlQ8QM
+                    <option value="basic">Basic - $29/month</option>
+                    <option value="standard">Standard - $49/month</option>
+                    <option value="premium">Premium - $79/month</option>
+                </select>
+            </div>
+
+            <!-- Terms and Conditions -->
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="terms">
+                <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+        </form>
+
+        <!-- Alert for Validation -->
+        <div class="alert alert-danger mt-3" id="error-msg" style="display:none;">
+            Please fill out all fields correctly!
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+

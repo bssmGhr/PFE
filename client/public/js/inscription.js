@@ -35,3 +35,18 @@ function toggleForm() {
         signupContainer.style.display = 'block';
     }
 }
+// Filter function to show/hide gyms based on selected service
+function filterGyms() {
+    const selectedService = document.getElementById('service-filter').value;
+    const gymItems = document.querySelectorAll('.gym-item');
+
+    gymItems.forEach((item) => {
+        const gymService = item.getAttribute('data-service');
+
+        if (selectedService === 'all' || gymService.includes(selectedService)) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
