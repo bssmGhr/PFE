@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Admin Dashboard</title>
+    <link rel="stylesheet" href="/styles/adminstyles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Gym Admin Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Members</a></li>
+                    <li><a href="#">Trainers</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Schedules</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="stats">
+                <div class="stat-box">
+                    <h3>Total Members</h3>
+                    <p id="total-members">120</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Active Trainers</h3>
+                    <p id="active-trainers">10</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Classes Today</h3>
+                    <p id="classes-today">5</p>
+                </div>
+            </section>
+            <section class="actions">
+                <h2>Manage Members</h2>
+                <button onclick="addMember()">Add Member</button>
+                <button onclick="viewMembers()">View Members</button>
+                <button onclick="deleteMember()">Delete Member</button>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Gym Admin Dashboard</p>
+        </footer>
+    </div>
+    <script src="/js/scriptadmin.js"></script>
+</body>
+
+</html>
