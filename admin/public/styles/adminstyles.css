@@ -74,3 +74,19 @@ footer {
     background-color: #444;
     color: #fff;
 }
+
+/* Custom Styles */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    margin-top: 20px;
+}
