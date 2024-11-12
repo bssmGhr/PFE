@@ -13,20 +13,20 @@ function Header() {
                     <nav class="d-none d-lg-block">
                         <ul class="nav">
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link text-white">Home</a>
+                                <Link to="index" class="nav-link text-white">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link text-white">Contact</a>
+                                <Link to="contact" class="nav-link text-white">Contact</Link>
                             </li>
                             <li class="nav-item">
-                                <a href="plans.html" class="nav-link text-white">Plans</a>
+                                <Link to="plans" class="nav-link text-white">Plans</Link>
                             </li>
 
                         </ul>
                     </nav>
                     <div class="d-flex">
-                        <a class="btn btn-outline-light me-2" href="inscription.html">Login</a>
-                        <a class="btn btn-warning" href="inscription.html">Sign-Up</a>
+                        <Link class="btn btn-outline-light me-2" to="inscription">Login</Link>
+                        <Link class="btn btn-warning" to="inscription">Sign-Up</Link>
                     </div>
 
                 </div>
