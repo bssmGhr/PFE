@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CurrentAttendance() {
+function AdminCurrentAttendance() {
     return (
         <section class="current-attendance">
             <h2>Current Attendance</h2>
@@ -30,4 +30,4 @@ function CurrentAttendance() {
     )
 }
 
-export default CurrentAttendance
+export default AdminCurrentAttendance

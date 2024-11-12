@@ -1,6 +1,6 @@
 import React from 'react'
 
-function NosAbonnements() {
+function AdminNosAbonnements() {
     return (
         <header class="bg-primary text-white text-center py-5">
             <h1>Nos Abonnements</h1>
@@ -10,4 +10,4 @@ function NosAbonnements() {
     )
 }
 
-export default NosAbonnements
+export default AdminNosAbonnements

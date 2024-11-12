@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CartesAbonnement() {
+function AdminCartesAbonnement() {
     return (
         <div class="container my-5">
             <div class="row justify-content-center">
@@ -47,4 +47,4 @@ function CartesAbonnement() {
     )
 }
 
-export default CartesAbonnement
+export default AdminCartesAbonnement

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MembersTable() {
+function AdminMembersTable() {
     return (
         <section class="my-5">
             <h2>Members List</h2>
@@ -20,4 +20,4 @@ function MembersTable() {
     )
 }
 
-export default MembersTable
+export default AdminMembersTable

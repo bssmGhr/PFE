@@ -1,6 +1,6 @@
 import React from 'react'
 
-function AttendanceSection() {
+function AdminAttendanceSection() {
     return (
         <section class="attendance-section">
             <h2>Mark Your Attendance</h2>
@@ -30,4 +30,4 @@ function AttendanceSection() {
     )
 }
 
-export default AttendanceSection
+export default AdminAttendanceSection

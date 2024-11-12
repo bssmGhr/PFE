@@ -1,6 +1,6 @@
 import React from 'react'
 
-function AddEditMember() {
+function AdminAddEditMember() {
     return (
         <section class="text-center my-5">
             <h2>Add/Edit Member</h2>
@@ -15,4 +15,4 @@ function AddEditMember() {
     )
 }
 
-export default AddEditMember
+export default AdminAddEditMember

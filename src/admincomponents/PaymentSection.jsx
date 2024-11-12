@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PaymentSection() {
+function AdminPaymentSection() {
     return (
         <section class="payment-section">
             <h2>Payment for Membership</h2>
@@ -44,4 +44,4 @@ function PaymentSection() {
     )
 }
 
-export default PaymentSection
+export default AdminPaymentSection
