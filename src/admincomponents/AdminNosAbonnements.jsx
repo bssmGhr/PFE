@@ -7,6 +7,7 @@ function AdminNosAbonnements() {
             <p>Choisissez le forfait qui vous convient et commencez votre parcours fitness dès aujourd'hui !
             </p>
         </header>
+
     )
 }
 
