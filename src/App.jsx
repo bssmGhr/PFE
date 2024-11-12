@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import Footer from './components/Footer';
 import './styles/style.css';
 import Home from './components/Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 const App = () => {
     return (
