@@ -22,14 +22,9 @@ app.get("*", (req, res) => {
 
 // Définir la route des utilisateurs en utilisant le router importé
 
-app.get("/mdp", (req, res, next) => {
+app.get("/passwordcrypto", (req, res, next) => {
     res.send(SHA256.AES.encrypt("mdp", "hash").toString());
 });
-
-// Connect to the database
-async function connectDB() {
-    await client.connect();
-}
 
 // Start the server
 app.listen(port, async () => {
