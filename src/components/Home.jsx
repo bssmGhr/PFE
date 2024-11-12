@@ -1,15 +1,16 @@
 import React from 'react'
-import Services from './components/Services'
-import WhyChooseUs from './components/WhyChooseUs'
-import Offers from './components/Offers'
-import Testimonials from './components/Testimonials'
+
+import WhyChooseUs from './WhyChooseUs'
+import Services from './Services'
+import SpecialOffersPage from './SpecialOffersPage'
+import Testimonials from './Testimonials'
 function Home() {
     return (
         <div>
             <h1>Home</h1>
             <Services />
             <WhyChooseUs />
-            <Offers />
+            <SpecialOffersPage />
             <Testimonials />
         </div>
     )
