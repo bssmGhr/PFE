@@ -35,8 +35,12 @@ function Inscription() {
                 </div>
                 <div class="mb-3">
                     <label htmlFor="signup-password" class="form-label">Password:</label>
-                    <input type="password" class="form-control" id="signup-password" name="password" required minLength="6" />
-                    <div class="invalid-feedback">Password must be at least 6 characters long.</div>
+                    <input type="password" class="form-control" id="signup-password" name="password" required minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}" />
+                    <div class="invalid-feedback">
+                        Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character.
+                    </div>
+
+
                 </div>
                 <button type="submit" class="btn btn-success w-100">Sign Up</button>
             </form>
