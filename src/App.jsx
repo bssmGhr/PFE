@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import './styles/style.css';
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from './components/Contact';
+import Plans from './components/Plans';
 import React from 'react'
 const App = () => {
     return (
@@ -14,6 +16,9 @@ const App = () => {
             <HeroSection />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/index" element={<Home />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/plans" element={<Plans />} />
                 {/* Add your routes here */}
             </Routes>
             <Footer />
