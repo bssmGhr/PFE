@@ -7,6 +7,8 @@ import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './components/Contact';
 import Plans from './components/Plans';
+import Inscription from './components/Inscription';
+import Connexion from './components/Connexion';
 import React from 'react'
 const App = () => {
     return (
@@ -19,6 +21,8 @@ const App = () => {
                 <Route path="/index" element={<Home />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/plans" element={<Plans />} />
+                <Route path="/inscription" element={<Inscription />} />
+                <Route path="/connexion" element={<Connexion />} />
                 {/* Add your routes here */}
             </Routes>
             <Footer />
