@@ -1,14 +1,15 @@
 import React from 'react'
-
+import imagesjfif from "../assets/images.jfif"
+import { Link } from 'react-router-dom'
 function Header() {
     return (
         <header class="bg-dark text-white py-3">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
-                    <a href="index.html" class="d-flex align-items-center text-white text-decoration-none">
-                        <img src="image/images.jfif" alt="Gym Name Logo" width="40" height="40" />
+                    <Link to="index" class="d-flex align-items-center text-white text-decoration-none">
+                        <img src={imagesjfif} alt="Gym Name Logo" width="40" height="40" />
                         <span class="ms-2">[Gym Name]</span>
-                    </a>
+                    </Link>
                     <nav class="d-none d-lg-block">
                         <ul class="nav">
                             <li class="nav-item">
