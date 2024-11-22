@@ -1,18 +1,21 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer';
-import AdminHeader from './AdminHeader';
-import AdminFooter from './AdminFooter';
-import Home from './Home';
-import Contact from './Contact';
-import Plans from './Plans';
-import Inscription from './Inscription';
-import Connexion from './Connexion';
-import Admin from './Admin';
-import AdminAddEditMember from './AdminAddEditMember';
-import AdminAttendanceSection from './AdminAttendanceSection';
-import AdminFooter from './admincomponents/AdminFooter';
-import AdminHeader from './admincomponents/AdminNavbar'
+import React from 'react';
+
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import Footer from './components/Footer';
+import './styles/style.css';
+import Home from './components/Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from './components/Contact';
+import Plans from './components/Plans';
+import Inscription from './components/Inscription';
+import Connexion from './components/Connexion';
+import Admin from "./admincomponents/Admin";
+import AdminAddEditMember from './admincomponents/AdminAddEditMember';
+import AdminHeader from "./admincomponents/AdminNavbar"
+import AdminFooter from "./admincomponents/AdminFooter"
+import AdminAttendanceSection from './admincomponents/AdminAttendanceSection';
 const App = () => {
     const location = useLocation();
     const isAdminRoute = location.pathname.startsWith('/admin');
