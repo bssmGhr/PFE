@@ -11,9 +11,9 @@ function Admin() {
             <AdminMembersTable />
             <AdminTrainers />
             <AdminNosAbonnements />
-            <AdminCurrentAttendance />
-            <PaymentSection />
-            <AdminAttendanceSection />
+            {/*<AdminCurrentAttendance />*/}
+            {/*<PaymentSection />*/}
+            {/*<AdminAttendanceSection />*/}
         </div>
     )
 }

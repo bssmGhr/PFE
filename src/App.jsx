@@ -16,6 +16,7 @@ import AdminAddEditMember from './admincomponents/AdminAddEditMember';
 import AdminHeader from "./admincomponents/AdminNavbar"
 import AdminFooter from "./admincomponents/AdminFooter"
 import AdminAttendanceSection from './admincomponents/AdminAttendanceSection';
+import AdminCurrentAttendanceSection from "./admincomponents/AdminCurrentAttendance"
 const App = () => {
     const location = useLocation();
     const isAdminRoute = location.pathname.startsWith('/admin');
@@ -35,6 +36,8 @@ const App = () => {
                 <Route path="/admin" element={<Admin />} />
                 <Route path="/adminaddeditmember" element={<AdminAddEditMember />} />
                 <Route path="/adminattendancesection" element={<AdminAttendanceSection />} />
+                <Route path="/admincurrentattendance" element={<AdminCurrentAttendanceSection />} />
+
             </Routes>
             {isAdminRoute ? <AdminFooter /> : <Footer />}
         </div>

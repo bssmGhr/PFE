@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom"
 function AdminNavbar() {
     return (
         <header className="py-4">
@@ -8,10 +8,10 @@ function AdminNavbar() {
 
                 <a href="#Members">Members</a>
                 <a href="#Trainers">Trainers</a>
-                <a href="#CurrentAttendance">Current Attendance</a>
+                <Link to="/admincurrentattendance">Current Attendance</Link>
                 <a href="#Abonnements">Abonnements</a>
                 <a href="#Paiements">Paiements</a>
-                <a href="#Présence">Présence</a>
+                <Link to="/adminattendancesection">Attendance</Link>
             </nav>
         </header>
     )
