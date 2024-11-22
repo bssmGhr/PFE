@@ -8,7 +8,7 @@ function AdminFooter() {
             <h3>Total Members</h3>
             <p id="total-members" className="display-4">0</p>
 
-            <p>&copy; 2024 GO TO GYM Admin. All rights reserved.</p> <p> <Link to="/PrivacyPolicy">Privacy Policy</Link> | <Link to="/TermsOfService">Terms of Service</Link> | <Link to="/ContactUs">Contact Us</Link> </p>
+            <p>&copy; 2024 GO TO GYM Admin. All rights reserved.</p> <p> <Link to="/PrivacyPolicy">The Privacy Policy</Link> | <Link to="/TermsOfService">Terms of Service</Link> | <Link to="/ContactUs">Contact Us</Link> </p>
 
 
         </footer>
