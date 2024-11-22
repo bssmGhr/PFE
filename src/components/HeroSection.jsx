@@ -1,5 +1,5 @@
 import React from 'react'
-
+import p from "../assets/18-01-Blog-Fitness-Information-personal-trainer.jpg"
 function HeroSection() {
     return (
         <section class="bg-primary text-white text-center py-5">
@@ -16,7 +16,7 @@ function HeroSection() {
                         </p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="image/360_F_481316696_cPzBNRfqMpbq2cx2soWytWAjhzZYByS4.jpg " alt="Gym Facilities"
+                        <img src={p} alt="Gym Facilities"
                             class="img-fluid rounded shadow-lg" />
                     </div>
                 </div>
