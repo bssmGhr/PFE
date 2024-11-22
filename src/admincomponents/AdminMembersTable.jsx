@@ -2,7 +2,7 @@ import React from 'react'
 
 function AdminMembersTable() {
     return (
-        <section className="my-5">
+        <section className="my-5" id="Members">
             <h2>Members List</h2>
             <table className="table table-striped">
                 <thead>
