@@ -2,12 +2,12 @@ import React from 'react'
 
 function AdminStatisctics() {
     return (
-        <section class="row text-center my-5">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
+        <section className="row text-center my-5">
+            <div className="col-md-4">
+                <div className="card">
+                    <div className="card-body">
                         <h3>Total Members</h3>
-                        <p id="total-members" class="display-4">0</p>
+                        <p id="total-members" className="display-4">0</p>
                     </div>
                 </div>
             </div>

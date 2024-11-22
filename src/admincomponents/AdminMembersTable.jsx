@@ -2,9 +2,9 @@ import React from 'react'
 
 function AdminMembersTable() {
     return (
-        <section class="my-5">
+        <section className="my-5">
             <h2>Members List</h2>
-            <table class="table table-striped">
+            <table className="table table-striped">
                 <thead>
                     <tr>
                         <th>#</th>
