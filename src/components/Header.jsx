@@ -12,13 +12,13 @@ function Header() {
                     </Link>
                     <nav class="d-none d-lg-block">
                         <ul class="nav">
-                            <li class="nav-item">
+                            <li class="btn btn-outline-light me-2">
                                 <Link to="index" class="nav-link text-white">Home</Link>
                             </li>
-                            <li class="nav-item">
+                            <li class="btn btn-outline-light me-2">
                                 <Link to="contact" class="nav-link text-white">Contact</Link>
                             </li>
-                            <li class="nav-item">
+                            <li class="btn btn-outline-light me-2">
                                 <Link to="plans" class="nav-link text-white">Plans</Link>
                             </li>
 
