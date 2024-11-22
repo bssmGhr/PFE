@@ -2,7 +2,7 @@ import React from 'react'
 
 function AdminTrainers() {
     return (
-        <section id="trainers">
+        <section id="Trainers">
             <h2>Nos Coaches</h2>
             <div className="trainer">
                 <img src="coach1.jpg" alt="Coach 1" />

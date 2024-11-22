@@ -19,7 +19,7 @@ import AdminAttendanceSection from './admincomponents/AdminAttendanceSection';
 const App = () => {
     const location = useLocation();
     const isAdminRoute = location.pathname.startsWith('/admin');
-
+    console.log(isAdminRoute)
     return (
         <div>
             {isAdminRoute ? <AdminHeader /> : <Header />}
