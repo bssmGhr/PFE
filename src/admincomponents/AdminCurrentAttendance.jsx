@@ -2,7 +2,7 @@ import React from 'react'
 
 function AdminCurrentAttendance() {
     return (
-        <section className="current-attendance">
+        <section className="current-attendance" id="CurrentAttendance">
             <h2>Current Attendance</h2>
             <table>
                 <thead>

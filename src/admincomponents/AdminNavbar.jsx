@@ -8,7 +8,7 @@ function AdminNavbar() {
 
                 <a href="#Members">Members</a>
                 <a href="#Trainers">Trainers</a>
-                <a href="#Classes">Classes</a>
+                <a href="#CurrentAttendance">Current Attendance</a>
                 <a href="#Abonnements">Abonnements</a>
                 <a href="#Paiements">Paiements</a>
                 <a href="#Présence">Présence</a>
