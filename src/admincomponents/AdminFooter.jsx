@@ -1,9 +1,11 @@
 import React from 'react'
-
+import AdminStatistics from './AdminStatisctics'
 function AdminFooter() {
     return (
         <footer className="text-center py-4 bg-dark text-light">
-            <p>&copy;GO TO GYM</p>
+            <AdminStatistics />
+            <p>&copy;GO TO GYM Admin</p>
+
         </footer>
     )
 }

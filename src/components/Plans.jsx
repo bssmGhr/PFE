@@ -9,7 +9,7 @@ function Plans() {
                 <ul>
                     <li>Access to gym equipment during off-peak hours</li>
                     <li>Unlimited use of cardio and strength zones</li>
-                    <li>Price: $29/month</li>
+                    <li>Price: 29,99€/month</li>
                 </ul>
             </div>
             <div className="membership-plan">
@@ -18,7 +18,7 @@ function Plans() {
                     <li>Full access to gym equipment any time</li>
                     <li>Unlimited group fitness classes</li>
                     <li>Access to locker rooms, showers, and saunas</li>
-                    <li>Price: $49/month</li>
+                    <li>Price: 79,99€/month</li>
                 </ul>
             </div>
             <div className="membership-plan">
@@ -28,7 +28,7 @@ function Plans() {
                     <li>Three personal training sessions per month</li>
                     <li>Priority booking for classes</li>
                     <li>Free guest passes</li>
-                    <li>Price: $79/month</li>
+                    <li>Price: 299,99€/month</li>
                 </ul>
             </div>
         </section>

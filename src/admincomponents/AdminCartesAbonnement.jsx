@@ -5,45 +5,46 @@ function AdminCartesAbonnement() {
         <div className="container my-5">
             <div className="row justify-content-center">
 
-                {/* Forfait Mensuel */}
+                {/* Monthly Plan */}
                 <div className="col-md-4">
                     <div className="pricing-plan">
-                        <h3>Mensuel</h3>
-                        <p className="price">29,99€</p>
-                        <p>Accès illimité aux équipements</p>
-                        <p>Accès aux cours collectifs</p>
-                        <p>1 séance avec un coach par mois</p>
-                        <button className="btn btn-primary btn-lg">Souscrire</button>
+                        <h3>Monthly</h3>
+                        <p className="price">€29.99</p>
+                        <p>Unlimited access to equipment</p>
+                        <p>Access to group classes</p>
+                        <p>1 session with a coach per month</p>
+                        <button className="btn btn-primary btn-lg">Subscribe</button>
                     </div>
                 </div>
 
-                {/* Forfait Trimestriel */}
+                {/* Quarterly Plan */}
                 <div className="col-md-4">
                     <div className="pricing-plan">
-                        <h3>Trimestriel</h3>
-                        <p className="price">79,99€</p>
-                        <p>Accès illimité aux équipements</p>
-                        <p>Accès à tous les cours collectifs</p>
-                        <p>3 séances avec un coach par trimestre</p>
-                        <button className="btn btn-primary btn-lg">Souscrire</button>
+                        <h3>Quarterly</h3>
+                        <p className="price">€79.99</p>
+                        <p>Unlimited access to equipment</p>
+                        <p>Access to all group classes</p>
+                        <p>3 sessions with a coach per quarter</p>
+                        <button className="btn btn-primary btn-lg">Subscribe</button>
                     </div>
                 </div>
 
-                {/* Forfait Annuel */}
+                {/* Annual Plan */}
                 <div className="col-md-4">
                     <div className="pricing-plan">
-                        <h3>Annuel</h3>
-                        <p className="price">299,99€</p>
-                        <p>Accès illimité aux équipements</p>
-                        <p>Accès à tous les cours collectifs</p>
-                        <p>Séances illimitées avec un coach</p>
-                        <p>Accès à des évènements exclusifs</p>
-                        <button className="btn btn-primary btn-lg">Souscrire</button>
+                        <h3>Annual</h3>
+                        <p className="price">€299.99</p>
+                        <p>Unlimited access to equipment</p>
+                        <p>Access to all group classes</p>
+                        <p>Unlimited sessions with a coach</p>
+                        <p>Access to exclusive events</p>
+                        <button className="btn btn-primary btn-lg">Subscribe</button>
                     </div>
                 </div>
 
             </div>
         </div>
+
     )
 }
 
