@@ -1,10 +1,12 @@
 import React from 'react'
-import AdminStatistics from './AdminStatisctics'
-import '../AdminFooter.css'
+
+import '../styles/AdminFooter.css'
 function AdminFooter() {
     return (
         <footer className="text-center py-4 bg-dark text-light">
-            <AdminStatistics />
+            <h3>Total Members</h3>
+            <p id="total-members" className="display-4">0</p>
+
             <p>&copy;GO TO GYM Admin</p>
 
         </footer>
