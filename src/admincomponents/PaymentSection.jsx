@@ -2,7 +2,7 @@ import React from 'react'
 
 function AdminPaymentSection() {
     return (
-        <section className="payment-section">
+        <section id="Paiements" className="payment-section">
             <h2>Payment for Membership</h2>
             <p>Please complete the form below to make your payment.</p>
 

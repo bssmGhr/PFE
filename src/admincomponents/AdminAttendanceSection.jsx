@@ -2,7 +2,7 @@ import React from 'react'
 
 function AdminAttendanceSection() {
     return (
-        <section className="attendance-section">
+        <section className="attendance-section" id="Présence">
             <h2>Mark Your Attendance</h2>
             <p>Please enter your details to mark your attendance for today.</p>
 
