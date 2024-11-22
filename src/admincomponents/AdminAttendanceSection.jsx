@@ -6,7 +6,7 @@ function AdminAttendanceSection() {
             <h2>Mark Your Attendance</h2>
             <p>Please enter your details to mark your attendance htmlFor today.</p>
 
-            <htmlForm id="attendancehtmlForm" action="attendance-success.html" method="POST">
+            <html id="attendancehtmlForm" action="attendance-success.html" method="POST">
                 <div class="htmlForm-group">
                     <label htmlFor="fullName">Full Name:</label>
                     <input type="text" id="fullName" name="fullName" required />
@@ -25,7 +25,7 @@ function AdminAttendanceSection() {
                 <div class="htmlForm-group">
                     <button type="submit" class="submit-button">Mark Attendance</button>
                 </div>
-            </htmlForm>
+            </html>
         </section>
     )
 }
