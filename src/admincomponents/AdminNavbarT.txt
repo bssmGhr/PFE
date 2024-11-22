@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from 'react';
 import { Link, useLocation } from "react-router-dom";
+
 function AdminNavbar() {
     const location = useLocation();
-    const isAdminRoute = location.pathname === '/admin';
+    const isAdminRoute = location.pathname.startsWith('/admin');
+
     return (
         <header className="py-4">
             <h1 className="text-center">GO TO GYM Admin</h1>
@@ -16,7 +17,7 @@ function AdminNavbar() {
                 <Link to="/adminattendancesection">Attendance</Link>
             </nav>
         </header>
-    )
+    );
 }
 
-export default AdminNavbar
+export default AdminNavbar;

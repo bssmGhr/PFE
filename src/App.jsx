@@ -15,6 +15,7 @@ import Admin from "./admincomponents/Admin";
 import AdminAddEditMember from './admincomponents/AdminAddEditMember';
 import AdminHeader from "./admincomponents/AdminNavbar"
 import AdminFooter from "./admincomponents/AdminFooter"
+import PaymentSection from "./admincomponents/PaymentSection"
 import AdminAttendanceSection from './admincomponents/AdminAttendanceSection';
 import AdminCurrentAttendanceSection from "./admincomponents/AdminCurrentAttendance"
 const App = () => {
@@ -37,7 +38,7 @@ const App = () => {
                 <Route path="/adminaddeditmember" element={<AdminAddEditMember />} />
                 <Route path="/adminattendancesection" element={<AdminAttendanceSection />} />
                 <Route path="/admincurrentattendance" element={<AdminCurrentAttendanceSection />} />
-
+                <Route path="/adminpaymentsection" element={<PaymentSection />}></Route>
             </Routes>
             {isAdminRoute ? <AdminFooter /> : <Footer />}
         </div>
