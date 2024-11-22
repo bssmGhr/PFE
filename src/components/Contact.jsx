@@ -2,14 +2,14 @@ import React from 'react'
 
 function Contact() {
     return (
-        <section class="contact">
+        <section className="contact">
             <h2>Contact Us</h2>
             <p>Address: 123 Fitness Lane, [City], [Country]</p>
             <p>Phone: +123-456-7890</p>
             <p>Email: info@gymname.com</p>
 
             <h3>Send Us a Message</h3>
-            <form class="contact-form">
+            <form className="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required />
                 <br />

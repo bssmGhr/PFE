@@ -2,12 +2,12 @@ import React from 'react'
 
 function Services() {
     return (
-        <section id="services" class="py-5">
-            <div class="container">
-                <h2 class="text-center mb-5">Our Services – Built Around You</h2>
-                <div class="row g-4">
-                    <div class="col-md-4 text-center">
-                        <div class="p-4 bg-light rounded shadow-sm h-100">
+        <section id="services" className="py-5">
+            <div className="container">
+                <h2 className="text-center mb-5">Our Services – Built Around You</h2>
+                <div className="row g-4">
+                    <div className="col-md-4 text-center">
+                        <div className="p-4 bg-light rounded shadow-sm h-100">
                             <h3>Strength & Conditioning</h3>
                             <p>
                                 Enhance muscle strength with our wide range of free weights and
@@ -15,8 +15,8 @@ function Services() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <div class="p-4 bg-light rounded shadow-sm h-100">
+                    <div className="col-md-4 text-center">
+                        <div className="p-4 bg-light rounded shadow-sm h-100">
                             <h3>Cardio Zone</h3>
                             <p>
                                 Our top-tier cardio equipment includes treadmills, ellipticals,
@@ -24,8 +24,8 @@ function Services() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <div class="p-4 bg-light rounded shadow-sm h-100">
+                    <div className="col-md-4 text-center">
+                        <div className="p-4 bg-light rounded shadow-sm h-100">
                             <h3>Group Classes</h3>
                             <p>
                                 Join high-energy classes like HIIT, yoga, Pilates, and cycling
@@ -33,8 +33,8 @@ function Services() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <div class="p-4 bg-light rounded shadow-sm h-100">
+                    <div className="col-md-4 text-center">
+                        <div className="p-4 bg-light rounded shadow-sm h-100">
                             <h3>Personal Training</h3>
                             <p>
                                 Work one-on-one with expert trainers for personalized workout
@@ -42,8 +42,8 @@ function Services() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <div class="p-4 bg-light rounded shadow-sm h-100">
+                    <div className="col-md-4 text-center">
+                        <div className="p-4 bg-light rounded shadow-sm h-100">
                             <h3>Recovery & Relaxation</h3>
                             <p>
                                 Unwind in our saunas or take advantage of our recovery services

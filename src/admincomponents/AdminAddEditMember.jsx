@@ -2,14 +2,14 @@ import React from 'react'
 
 function AdminAddEditMember() {
     return (
-        <section class="text-center my-5">
+        <section className="text-center my-5">
             <h2>Add/Edit Member</h2>
             <form id="member-form">
-                <div class="mb-3">
+                <div className="mb-3">
                     <input type="hidden" id="member-id" />
-                    <input type="text" id="member-name" class="form-control" placeholder="Member Name" required />
+                    <input type="text" id="member-name" className="form-control" placeholder="Member Name" required />
                 </div>
-                <button type="submit" class="btn btn-primary" id="submit-btn">Add Member</button>
+                <button type="submit" className="btn btn-primary" id="submit-btn">Add Member</button>
             </form>
         </section>
     )

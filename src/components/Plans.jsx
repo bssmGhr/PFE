@@ -2,9 +2,9 @@ import React from 'react'
 
 function Plans() {
     return (
-        <section class="membership bg-primary text-white text-center py-5">
+        <section className="membership bg-primary text-white text-center py-5">
             <h2>Membership Plans</h2>
-            <div class="membership-plan">
+            <div className="membership-plan">
                 <h3>Basic Membership</h3>
                 <ul>
                     <li>Access to gym equipment during off-peak hours</li>
@@ -12,7 +12,7 @@ function Plans() {
                     <li>Price: $29/month</li>
                 </ul>
             </div>
-            <div class="membership-plan">
+            <div className="membership-plan">
                 <h3>Standard Membership</h3>
                 <ul>
                     <li>Full access to gym equipment any time</li>
@@ -21,7 +21,7 @@ function Plans() {
                     <li>Price: $49/month</li>
                 </ul>
             </div>
-            <div class="membership-plan">
+            <div className="membership-plan">
                 <h3>Premium Membership</h3>
                 <ul>
                     <li>All Standard benefits</li>

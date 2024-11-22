@@ -2,12 +2,12 @@ import React from 'react'
 
 function WhyChooseUs() {
     return (
-        <section class="py-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-5" id="why">Why Choose [Go To GYM]?</h2>
-                <div class="row g-4">
-                    <div class="col-md-6">
-                        <div class="p-4 bg-white rounded shadow-sm h-100">
+        <section className="py-5 bg-light">
+            <div className="container">
+                <h2 className="text-center mb-5" id="why">Why Choose [Go To GYM]?</h2>
+                <div className="row g-4">
+                    <div className="col-md-6">
+                        <div className="p-4 bg-white rounded shadow-sm h-100">
                             <h4>Modern Equipment</h4>
                             <p>
                                 Train with the latest fitness machines and gear in a clean,
@@ -15,8 +15,8 @@ function WhyChooseUs() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="p-4 bg-white rounded shadow-sm h-100">
+                    <div className="col-md-6">
+                        <div className="p-4 bg-white rounded shadow-sm h-100">
                             <h4>Qualified Trainers</h4>
                             <p>
                                 Our certified trainers are passionate about fitness and ready to
@@ -24,8 +24,8 @@ function WhyChooseUs() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="p-4 bg-white rounded shadow-sm h-100">
+                    <div className="col-md-6">
+                        <div className="p-4 bg-white rounded shadow-sm h-100">
                             <h4>Inclusive Environment</h4>
                             <p>
                                 We believe in fitness for everyone—join a supportive community
@@ -33,8 +33,8 @@ function WhyChooseUs() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="p-4 bg-white rounded shadow-sm h-100">
+                    <div className="col-md-6">
+                        <div className="p-4 bg-white rounded shadow-sm h-100">
                             <h4>Prime Location</h4>
                             <p>
                                 Conveniently located in the heart of [City] with ample parking

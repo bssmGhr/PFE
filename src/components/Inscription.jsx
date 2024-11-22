@@ -22,29 +22,29 @@ function Inscription() {
         navigate('/connexion');
     }
     return (
-        <div class="container" id="signup-container">
-            <h2 class="text-center mb-4">Sign Up</h2>
+        <div className="container" id="signup-container">
+            <h2 className="text-center mb-4">Sign Up</h2>
             <form id="signup-form" onSubmit={(e) => validateSignup(e)}>
-                <div class="mb-3">
-                    <label htmlFor="signup-name" class="form-label">Name:</label>
-                    <input type="text" class="form-control" id="signup-name" name="name" required />
+                <div className="mb-3">
+                    <label htmlFor="signup-name" className="form-label">Name:</label>
+                    <input type="text" className="form-control" id="signup-name" name="name" required />
                 </div>
-                <div class="mb-3">
-                    <label htmlFor="signup-email" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="signup-email" name="email" required />
+                <div className="mb-3">
+                    <label htmlFor="signup-email" className="form-label">Email:</label>
+                    <input type="email" className="form-control" id="signup-email" name="email" required />
                 </div>
-                <div class="mb-3">
-                    <label htmlFor="signup-password" class="form-label">Password:</label>
-                    <input type="password" class="form-control" id="signup-password" name="password" required minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}" />
-                    <div class="invalid-feedback">
+                <div className="mb-3">
+                    <label htmlFor="signup-password" className="form-label">Password:</label>
+                    <input type="password" className="form-control" id="signup-password" name="password" required minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}" />
+                    <div className="invalid-feedback">
                         Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character.
                     </div>
 
 
                 </div>
-                <button type="submit" class="btn btn-success w-100">Sign Up</button>
+                <button type="submit" className="btn btn-success w-100">Sign Up</button>
             </form>
-            <a href="#" class="d-block text-center mt-3" onClick={toggleForm}>Already have an account? Login</a>
+            <a href="#" className="d-block text-center mt-3" onClick={toggleForm}>Already have an account? Login</a>
         </div>
     )
 }

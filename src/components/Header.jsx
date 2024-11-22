@@ -3,30 +3,30 @@ import imagesjfif from "../assets/images.jfif"
 import { Link } from 'react-router-dom'
 function Header() {
     return (
-        <header class="bg-dark text-white py-3">
-            <div class="container">
-                <div class="d-flex justify-content-between align-items-center">
-                    <Link to="index" class="d-flex align-items-center text-white text-decoration-none">
+        <header className="bg-dark text-white py-3">
+            <div className="container">
+                <div className="d-flex justify-content-between align-items-center">
+                    <Link to="index" className="d-flex align-items-center text-white text-decoration-none">
                         <img src={imagesjfif} alt="Gym Name Logo" width="40" height="40" />
-                        <span class="ms-2">[Gym Name]</span>
+                        <span className="ms-2">[Gym Name]</span>
                     </Link>
-                    <nav class="d-none d-lg-block">
-                        <ul class="nav">
-                            <li class="btn btn-outline-light me-2">
-                                <Link to="index" class="nav-link text-white">Home</Link>
+                    <nav className="d-none d-lg-block">
+                        <ul className="nav">
+                            <li className="btn btn-outline-light me-2">
+                                <Link to="index" className="nav-link text-white">Home</Link>
                             </li>
-                            <li class="btn btn-outline-light me-2">
-                                <Link to="contact" class="nav-link text-white">Contact</Link>
+                            <li className="btn btn-outline-light me-2">
+                                <Link to="contact" className="nav-link text-white">Contact</Link>
                             </li>
-                            <li class="btn btn-outline-light me-2">
-                                <Link to="plans" class="nav-link text-white">Plans</Link>
+                            <li className="btn btn-outline-light me-2">
+                                <Link to="plans" className="nav-link text-white">Plans</Link>
                             </li>
 
                         </ul>
                     </nav>
-                    <div class="d-flex">
-                        <Link class="btn btn-outline-light me-2" to="inscription">Login</Link>
-                        <Link class="btn btn-warning" to="inscription">Sign-Up</Link>
+                    <div className="d-flex">
+                        <Link className="btn btn-outline-light me-2" to="inscription">Login</Link>
+                        <Link className="btn btn-warning" to="inscription">Sign-Up</Link>
                     </div>
 
                 </div>
