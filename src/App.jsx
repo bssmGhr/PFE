@@ -9,7 +9,11 @@ import Contact from './components/Contact';
 import Plans from './components/Plans';
 import Inscription from './components/Inscription';
 import Connexion from './components/Connexion';
+import Admin from "./admincomponents/Admin";
+import AdminAddEditMember from './admincomponents/AdminAddEditMember';
+
 import React from 'react'
+import AdminAttendanceSection from './admincomponents/AdminAttendanceSection';
 const App = () => {
     return (
         <Router>
@@ -24,6 +28,9 @@ const App = () => {
                 <Route path="/inscription" element={<Inscription />} />
                 <Route path="/connexion" element={<Connexion />} />
                 {/* Add your routes here */}
+                <Route path="/admin" element={<Admin />} />
+                <Route path="/adminaddeditmember" element={<AdminAddEditMember />} />
+                <Route path="/adminattendancesection" element={<AdminAttendanceSection />} />
             </Routes>
             <Footer />
         </Router>
