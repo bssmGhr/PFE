@@ -1,5 +1,6 @@
 import React from 'react'
 import AdminStatistics from './AdminStatisctics'
+import '../AdminFooter.css'
 function AdminFooter() {
     return (
         <footer className="text-center py-4 bg-dark text-light">
