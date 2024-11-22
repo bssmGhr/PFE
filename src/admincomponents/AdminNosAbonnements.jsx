@@ -3,11 +3,12 @@ import AdminCartesAbonnement from "./AdminCartesAbonnement"
 function AdminNosAbonnements() {
     return (
         <header id="Abonnements" className="bg-primary text-white text-center py-5">
-            <h1>Nos Abonnements</h1>
-            <p>Choisissez le forfait qui vous convient et commencez votre parcours fitness dès aujourd'hui !
+            <h1>Our Subscriptions</h1>
+            <p>Choose the plan that suits you and start your fitness journey today!
                 <AdminCartesAbonnement />
             </p>
         </header>
+
 
     )
 }

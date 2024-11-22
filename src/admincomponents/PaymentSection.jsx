@@ -10,9 +10,9 @@ function AdminPaymentSection() {
                 <div className="form-group">
                     <label for="membershipType">Membership Type:</label>
                     <select id="membershipType" name="membershipType" required>
-                        <option value="basic">Basic - $20/month</option>
-                        <option value="premium">Premium - $50/month</option>
-                        <option value="vip">VIP - $100/month</option>
+                        <option value="basic">Basic - 29.99 euros/month</option>
+                        <option value="premium">Premium - 79.99 euros/Quarterly</option>
+                        <option value="vip">VIP - 299.99 euros/Annual</option>
                     </select>
                 </div>
 
