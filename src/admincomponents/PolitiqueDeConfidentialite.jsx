@@ -92,53 +92,43 @@ function PolitiqueDeConfidentialite() {
       </p>
 
 
-      <h2>Ne Pas Suivre</h2>
+      <h2>Do Not Track</h2>
       <p>
-        Veuillez noter que nous ne modifions pas la collecte de données de notre Site et nos pratiques d'utilisation lorsque nous détectons un signal « Ne pas suivre »
-        NE PAS SUIVRE
+        Please note that we do not alter our Site's data collection and usage practices when we detect a "Do Not Track" signal.
       </p>
-      Veuillez noter que nous ne modifions pas la collecte de données de notre Site et nos pratiques d'utilisation lorsque nous détectons un signal « Ne pas
-      suivre » sur votre navigateur.
-      < h2 h2 >
-        VOS DROITS</ >
       <p>
-        Si vous êtes résident(e) européen(ne), vous disposez d'un droit d'accès aux informations personnelles que nous détenons à votre sujet et vous pouvez
-        demander à ce qu'elles soient corrigées, mises à jour ou supprimées. Si vous souhaitez exercer ce droit, veuillez nous contacter au moyen des
-        coordonnées précisées ci-dessous.<br />
-        Par ailleurs, si vous êtes résident(e) européen(ne), notez que nous traitons vos informations dans le but de remplir nos obligations contractuelles à votre
-        égard (par exemple si vous passez une commande sur le Site) ou de poursuivre nos intérêts commerciaux légitimes, énumérés ci-dessus. Veuillez
-        également noter que vos informations seront transférées hors de l'Europe, y compris au Canada et aux États-Unis.
+        Please note that we do not alter our Site's data collection and usage practices when we detect a "Do Not Track" signal on your browser.
       </p>
-      <h2>
-        RÉTENTION DES DONNÉES
-      </h2>
+
+      <h2>Your Rights</h2>
       <p>
-        Lorsque vous passez une commande par l'intermédiaire du Site, nous conservons les Informations sur votre commande dans nos dossiers, sauf si et
-        jusqu'à ce que vous nous demandiez de les supprimer.
+        If you are a European resident, you have the right to access the personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us using the contact details provided below.<br />
+        Additionally, if you are a European resident, we note that we are processing your information in order to fulfill contracts we might have with you (for example, if you make an order through the Site), or otherwise to pursue our legitimate business interests listed above. Please also note that your information will be transferred outside of Europe, including to Canada and the United States.
       </p>
-      <h2>
-        MINEURS
-      </h2>
+
+      <h2>Data Retention</h2>
       <p>
-        Le Site n'est pas destiné aux individus de moins de 18 ans.
+        When you place an order through the Site, we will maintain your Order Information for our records unless and until you ask us to delete this information.
       </p>
-      <h2>
-        CHANGEMENTS
-      </h2>
+
+      <h2>Minors</h2>
       <p>
-        Nous pouvons être amenés à modifier la présente politique de confidentialité de temps à autre afin d'y refléter, par exemple, les changements apportés à
-        nos pratiques ou pour d'autres motifs opérationnels, juridiques ou réglementaires.
+        The Site is not intended for individuals under the age of 18.
       </p>
-      <h2>
-        NOUS CONTACTER
-      </h2>
+
+      <h2>Changes</h2>
       <p>
-        Pour en savoir plus sur nos pratiques de confidentialité, si vous avez des questions ou si vous souhaitez déposer une réclamation, veuillez nous contacter
-        par e-mail à contact@salondechat.com, ou par courrier à l'adresse suivante :
-        sousse, sousse, sousse, 4060, Tunisie
-        Propulsé par Shopify
+        We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal, or regulatory reasons.
+      </p>
+
+      <h2>Contact Us</h2>
+      <p>
+        To learn more about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by email at contact@salledesport.com, or by mail at the following address:
+        Sousse, Sousse, Sousse, 4060, Tunisia
+        Powered by Shopify
         www.shopify.fr
       </p>
+
     </div >
   )
 }
