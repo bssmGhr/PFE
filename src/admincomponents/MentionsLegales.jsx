@@ -100,33 +100,33 @@ function MentionsLegales() {
 
       <p><a href="https://salledesport.com">https://salledesport.com</a> does not sell your personal data, which are therefore only used by necessity or for statistical and analysis purposes.</p>
 
-      <h3>7.3 Droit d’accès, de rectification et d’opposition</h3>
+      <h3>7.3 Right of access, rectification, and opposition</h3>
 
       <p>
-        Conformément à la réglementation européenne en vigueur, les Utilisateurs de <a href="https;//salledesport.com">https;//salledesport.com</a> disposent des droits suivants : </p>
+        In accordance with European regulations in force, Users of <a href="https://salledesport.com">https://salledesport.com</a> have the following rights:
+      </p>
       <ul>
+        <li>right of access (Article 15 GDPR) and rectification (Article 16 GDPR), updating, and completeness of User data, right to lock or erase User personal data (Article 17 GDPR), when they are inaccurate, incomplete, ambiguous, outdated, or whose collection, use, communication, or storage is prohibited</li>
 
-        <li>droit d'accès (article 15 RGPD) et de rectification (article 16 RGPD), de mise à jour, de complétude des données des Utilisateurs droit de verrouillage ou d’effacement des données des Utilisateurs à caractère personnel (article 17 du RGPD), lorsqu’elles sont inexactes, incomplètes, équivoques, périmées, ou dont la collecte, l'utilisation, la communication ou la conservation est interdite </li>
+        <li>right to withdraw consent at any time (Article 13-2c GDPR)</li>
 
-        <li>droit de retirer à tout moment un consentement (article 13-2c RGPD) </li>
+        <li>right to limit the processing of User data (Article 18 GDPR)</li>
 
-        <li>droit à la limitation du traitement des données des Utilisateurs (article 18 RGPD) </li>
+        <li>right to object to the processing of User data (Article 21 GDPR)</li>
 
-        <li>droit d’opposition au traitement des données des Utilisateurs (article 21 RGPD) </li>
+        <li>right to the portability of the data that Users have provided, when these data are subject to automated processing based on their consent or a contract (Article 20 GDPR)</li>
 
-        <li>droit à la portabilité des données que les Utilisateurs auront fournies, lorsque ces données font l’objet de traitements automatisés fondés sur leur consentement ou sur un contrat (article 20 RGPD) </li>
-
-        <li>droit de définir le sort des données des Utilisateurs après leur mort et de choisir à qui <a href="https;//salledesport.com">https;//salledesport.com</a> devra communiquer (ou non) ses données à un tiers qu’ils aura préalablement désigné</li>
+        <li>right to define the fate of User data after their death and to choose to whom <a href="https://salledesport.com">https://salledesport.com</a> should communicate (or not) their data to a third party they have previously designated</li>
       </ul>
 
-      <p>Dès que <a href="https;//salledesport.com">https;//salledesport.com</a> a connaissance du décès d’un Utilisateur et à défaut d’instructions de sa part, <a href="https;//salledesport.com">https;//salledesport.com</a> s’engage à détruire ses données, sauf si leur conservation s’avère nécessaire à des fins probatoires ou pour répondre à une obligation légale.</p>
+      <p>As soon as <a href="https://salledesport.com">https://salledesport.com</a> becomes aware of the death of a User and in the absence of instructions from them, <a href="https://salledesport.com">https://salledesport.com</a> undertakes to destroy their data, unless their retention is necessary for probative purposes or to meet a legal obligation.</p>
 
-      <p>Si l’Utilisateur souhaite savoir comment <a href="https;//salledesport.com">https;//salledesport.com</a> utilise ses Données Personnelles, demander à les rectifier ou s’oppose à leur traitement, l’Utilisateur peut contacter <a href="https;//salledesport.com">https;//salledesport.com</a> par écrit à l’adresse suivante : </p>
+      <p>If the User wishes to know how <a href="https://salledesport.com">https://salledesport.com</a> uses their Personal Data, request to rectify them, or oppose their processing, the User can contact <a href="https://salledesport.com">https://salledesport.com</a> in writing at the following address:</p>
 
-      salon de chat – DPO, amir <br />
-      sousse 4060 tunisie.
+      salon de chat – DPO, Amir <br />
+      Sousse 4060 Tunisia.
 
-      <p>Dans ce cas, l’Utilisateur doit indiquer les Données Personnelles qu’il souhaiterait que <a href="https;//salledesport.com">https;//salledesport.com</a> corrige, mette à jour ou supprime, en s’identifiant précisément avec une copie d’une pièce d’identité (carte d’identité ou passeport). </p>
+      <p>In this case, the User must indicate the Personal Data they would like <a href="https://salledesport.com">https://salledesport.com</a> to correct, update, or delete, by identifying themselves precisely with a copy of an identity document (identity card or passport).</p>
 
       <p>
         Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à <a href="https;//salledesport.com">https;//salledesport.com</a> par la loi, notamment en matière de conservation ou d’archivage des documents. Enfin, les Utilisateurs de <a href="https;//salledesport.com">https;//salledesport.com</a> peuvent déposer une réclamation auprès des autorités de contrôle, et notamment de la CNIL (https://www.cnil.fr/fr/plaintes).</p>
