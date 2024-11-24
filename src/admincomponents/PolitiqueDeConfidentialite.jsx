@@ -58,29 +58,29 @@ function PolitiqueDeConfidentialite() {
 
       </p>
       <p>
-        Nous utilisons les Informations sur l'appareil (en particulier votre adresse IP) que nous recueillons pour évaluer les fraudes ou risques potentiels et, de manière plus générale, pour améliorer et optimiser notre Site (par exemple, en générant des analyses sur la façon dont nos clients parcourent et interagissent avec le Site, et pour évaluer la réussite de nos campagnes de publicité et de marketing).
+        We use the Device Information (in particular, your IP address) that we collect to assess potential fraud or risks and, more generally, to improve and optimize our Site (for example, by generating analytics on how our customers browse and interact with the Site, and to evaluate the success of our advertising and marketing campaigns).
       </p>
       <p>
-        NOTAMMENT EN MATIÈRE DE PUBLICITÉ ET DE RECIBLAGE
-      </p>
-
-      <h2>Partage de Vos Informations Personnelles</h2>
-      <p>
-        Nous partageons vos Informations personnelles avec des tiers qui nous aident à les utiliser aux fins décrites précédemment. Par exemple, nous utilisons Shopify pour héberger notre boutique en ligne – pour en savoir plus sur l'utilisation de vos Informations personnelles par Shopify, veuillez consulter la page suivante : <a href="https://www.shopify.fr/legal/confidentialite">https://www.shopify.fr/legal/confidentialite</a>. Nous utilisons également Google Analytics pour mieux comprendre comment nos clients utilisent le Site – pour en savoir plus sur l'utilisation de vos Informations personnelles par Google, veuillez consulter la page suivante : <a href="https://www.google.com/intl/fr/policies/privacy/">https://www.google.com/intl/fr/policies/privacy/</a>. Vous pouvez aussi désactiver Google Analytics ici : <a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a>.
-      </p>
-      <p>
-        Enfin, il se peut que nous partagions aussi vos Informations personnelles pour respecter les lois et règlementations applicables, répondre à une assignation, à un mandat de perquisition ou à toute autre demande légale de renseignements que nous recevons, ou pour protéger nos droits.
-      </p>
-      <p>
-
+        PARTICULARLY IN TERMS OF ADVERTISING AND RETARGETING
       </p>
 
-      <h2>Publicité Comportementale</h2>
+      <h2>Sharing Your Personal Information</h2>
       <p>
-        Comme indiqué ci-dessus, nous utilisons vos Informations personnelles pour vous proposer des publicités ciblées ou des messages de marketing qui, selon nous, pourraient vous intéresser. Pour en savoir plus sur le fonctionnement de la publicité ciblée, vous pouvez consulter la page d'information de la Network Advertising Initiative (NAI) à l'adresse suivante : <a href="http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work">http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work</a>.
+        We share your Personal Information with third parties who help us use it for the purposes described above. For example, we use Shopify to host our online store – to learn more about how Shopify uses your Personal Information, please visit the following page: <a href="https://www.shopify.fr/legal/confidentialite">https://www.shopify.fr/legal/confidentialite</a>. We also use Google Analytics to better understand how our customers use the Site – to learn more about how Google uses your Personal Information, please visit the following page: <a href="https://www.google.com/intl/fr/policies/privacy/">https://www.google.com/intl/fr/policies/privacy/</a>. You can also opt out of Google Analytics here: <a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a>.
       </p>
       <p>
-        Vous pouvez refuser la publicité ciblée ici :
+        Finally, we may also share your Personal Information to comply with applicable laws and regulations, respond to a subpoena, search warrant, or other lawful requests for information we receive, or to protect our rights.
+      </p>
+      <p>
+
+      </p>
+
+      <h2>Behavioral Advertising</h2>
+      <p>
+        As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For more information on how targeted advertising works, you can visit the Network Advertising Initiative's (NAI) educational page at the following address: <a href="http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work">http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work</a>.
+      </p>
+      <p>
+        You can opt out of targeted advertising here:
       </p>
       <ul>
         <li><a href="https://www.facebook.com/settings/?tab=ads">FACEBOOK</a></li>
@@ -88,8 +88,9 @@ function PolitiqueDeConfidentialite() {
         <li><a href="https://about.ads.microsoft.com/fr-fr/ressources/politiques/annonces-personnalisees">BING</a></li>
       </ul>
       <p>
-        En outre, vous pouvez refuser certains de ces services en vous rendant sur le portail de désactivation de Digital Advertising Alliance à l'adresse suivante : <a href="https://optout.aboutads.info/?c=3&lang=fr">https://optout.aboutads.info/?c=3&lang=fr</a>.
+        Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance's opt-out portal at the following address: <a href="https://optout.aboutads.info/?c=3&lang=fr">https://optout.aboutads.info/?c=3&lang=fr</a>.
       </p>
+
 
       <h2>Ne Pas Suivre</h2>
       <p>
