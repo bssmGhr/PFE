@@ -59,21 +59,21 @@ function MentionsLegales() {
 
       <p><a href="https://salledesport.com">https://salledesport.com</a> and the host cannot be held responsible in the event of a malfunction of the Internet network, telephone lines, or computer and telephone equipment, particularly due to network congestion preventing access to the server.</p>
 
-      <h2>5. Propriété intellectuelle et contrefaçons.</h2>
+      <h2>5. Intellectual property and counterfeiting.</h2>
 
-      <p><a href="https;//salledesport.com">https;//salledesport.com</a> est propriétaire des droits de propriété intellectuelle et détient les droits d’usage sur tous les éléments accessibles sur le site internet, notamment les textes, images, graphismes, logos, vidéos, icônes et sons.
-        Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de : <a href="https;//salledesport.com">https;//salledesport.com</a>.</p>
+      <p><a href="https://salledesport.com">https://salledesport.com</a> owns the intellectual property rights and holds the usage rights on all elements accessible on the website, including texts, images, graphics, logos, videos, icons, and sounds.
+        Any reproduction, representation, modification, publication, adaptation of all or part of the elements of the site, regardless of the means or process used, is prohibited, unless prior written permission is obtained from: <a href="https://salledesport.com">https://salledesport.com</a>.</p>
 
-      <p>Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.</p>
+      <p>Any unauthorized use of the site or any of the elements it contains will be considered as constituting an infringement and prosecuted in accordance with the provisions of Articles L.335-2 and following of the Intellectual Property Code.</p>
 
-      <h2>6. Limitations de responsabilité.</h2>
+      <h2>6. Limitation of liability.</h2>
 
-      <p><a href="https;//salledesport.com">https;//salledesport.com</a> agit en tant qu’éditeur du site. <a href="https;//salledesport.com">https;//salledesport.com</a>  est responsable de la qualité et de la véracité du Contenu qu’il publie. </p>
+      <p><a href="https://salledesport.com">https://salledesport.com</a> acts as the publisher of the site. <a href="https://salledesport.com">https://salledesport.com</a> is responsible for the quality and accuracy of the Content it publishes.</p>
 
-      <p><a href="https;//salledesport.com">https;//salledesport.com</a> ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site internet <a href="https;//salledesport.com">https;//salledesport.com</a>, et résultant soit de l’utilisation d’un matériel ne répondant pas aux spécifications indiquées au point 4, soit de l’apparition d’un bug ou d’une incompatibilité.</p>
+      <p><a href="https://salledesport.com">https://salledesport.com</a> cannot be held responsible for direct and indirect damage caused to the user's equipment, when accessing the website <a href="https://salledesport.com">https://salledesport.com</a>, and resulting either from the use of equipment that does not meet the specifications indicated in point 4, or from the appearance of a bug or incompatibility.</p>
 
-      <p><a href="https;//salledesport.com">https;//salledesport.com</a> ne pourra également être tenu responsable des dommages indirects (tels par exemple qu’une perte de marché ou perte d’une chance) consécutifs à l’utilisation du site <a href="https;//salledesport.com">https;//salledesport.com</a>.
-        Des espaces interactifs (possibilité de poser des questions dans l’espace contact) sont à la disposition des utilisateurs. <a href="https;//salledesport.com">https;//salledesport.com</a> se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu déposé dans cet espace qui contreviendrait à la législation applicable en France, en particulier aux dispositions relatives à la protection des données. Le cas échéant, <a href="https;//salledesport.com">https;//salledesport.com</a> se réserve également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l’utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie …).</p>
+      <p><a href="https://salledesport.com">https://salledesport.com</a> cannot also be held responsible for indirect damages (such as, for example, a loss of market or loss of opportunity) resulting from the use of the site <a href="https://salledesport.com">https://salledesport.com</a>.
+        Interactive spaces (possibility to ask questions in the contact area) are available to users. <a href="https://salledesport.com">https://salledesport.com</a> reserves the right to delete, without prior notice, any content posted in this space that would contravene the applicable law in France, in particular the provisions relating to data protection. If necessary, <a href="https://salledesport.com">https://salledesport.com</a> also reserves the possibility of questioning the civil and/or criminal liability of the user, particularly in the case of messages of a racist, offensive, defamatory, or pornographic nature, regardless of the medium used (text, photograph, etc.).</p>
 
       <h2>7. Gestion des données personnelles.</h2>
 
