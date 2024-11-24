@@ -129,62 +129,79 @@ function MentionsLegales() {
       <p>In this case, the User must indicate the Personal Data they would like <a href="https://salledesport.com">https://salledesport.com</a> to correct, update, or delete, by identifying themselves precisely with a copy of an identity document (identity card or passport).</p>
 
       <p>
-        Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à <a href="https;//salledesport.com">https;//salledesport.com</a> par la loi, notamment en matière de conservation ou d’archivage des documents. Enfin, les Utilisateurs de <a href="https;//salledesport.com">https;//salledesport.com</a> peuvent déposer une réclamation auprès des autorités de contrôle, et notamment de la CNIL (https://www.cnil.fr/fr/plaintes).</p>
+        Requests for the deletion of Personal Data will be subject to the obligations imposed on <a href="https://salledesport.com">https://salledesport.com</a> by law, particularly regarding the retention or archiving of documents. Finally, Users of <a href="https://salledesport.com">https://salledesport.com</a> can file a complaint with the supervisory authorities, particularly the CNIL (https://www.cnil.fr/fr/plaintes).
+      </p>
 
-      <h3>7.4 Non-communication des données personnelles</h3>
-
-      <p>
-        <a href="https;//salledesport.com">https;//salledesport.com</a> s’interdit de traiter, héberger ou transférer les Informations collectées sur ses Clients vers un pays situé en dehors de l’Union européenne ou reconnu comme « non adéquat » par la Commission européenne sans en informer préalablement le client. Pour autant, <a href="https;//salledesport.com">https;//salledesport.com</a> reste libre du choix de ses sous-traitants techniques et commerciaux à la condition qu’il présentent les garanties suffisantes au regard des exigences du Règlement Général sur la Protection des Données (RGPD : n° 2016-679).</p>
+      <h3>7.4 Non-communication of personal data</h3>
 
       <p>
-        <a href="https;//salledesport.com">https;//salledesport.com</a> s’engage à prendre toutes les précautions nécessaires afin de préserver la sécurité des Informations et notamment qu’elles ne soient pas communiquées à des personnes non autorisées. Cependant, si un incident impactant l’intégrité ou la confidentialité des Informations du Client est portée à la connaissance de <a href="https;//salledesport.com">https;//salledesport.com</a>, celle-ci devra dans les meilleurs délais informer le Client et lui communiquer les mesures de corrections prises. Par ailleurs <a href="https;//salledesport.com">https;//salledesport.com</a> ne collecte aucune « données sensibles ».</p>
+        <a href="https://salledesport.com">https://salledesport.com</a> refrains from processing, hosting, or transferring the Information collected on its Clients to a country located outside the European Union or recognized as "non-adequate" by the European Commission without informing the client in advance. However, <a href="https://salledesport.com">https://salledesport.com</a> remains free to choose its technical and commercial subcontractors provided that they present sufficient guarantees regarding the requirements of the General Data Protection Regulation (GDPR: No. 2016-679).
+      </p>
 
       <p>
-        Les Données Personnelles de l’Utilisateur peuvent être traitées par des filiales de <a href="https;//salledesport.com">https;//salledesport.com</a> et des sous-traitants (prestataires de services), exclusivement afin de réaliser les finalités de la présente politique.</p>
+        <a href="https://salledesport.com">https://salledesport.com</a> undertakes to take all necessary precautions to preserve the security of the Information and, in particular, to ensure that it is not communicated to unauthorized persons. However, if an incident affecting the integrity or confidentiality of the Client's Information is brought to the attention of <a href="https://salledesport.com">https://salledesport.com</a>, it must inform the Client as soon as possible and communicate the corrective measures taken. Furthermore, <a href="https://salledesport.com">https://salledesport.com</a> does not collect any "sensitive data."
+      </p>
+
       <p>
-        Dans la limite de leurs attributions respectives et pour les finalités rappelées ci-dessus, les principales personnes susceptibles d’avoir accès aux données des Utilisateurs de <a href="https;//salledesport.com">https;//salledesport.com</a> sont principalement les agents de notre service client.</p>
+        The User's Personal Data may be processed by subsidiaries of <a href="https://salledesport.com">https://salledesport.com</a> and subcontractors (service providers), exclusively to achieve the purposes of this policy.
+      </p>
+      <p>
+        Within the limits of their respective responsibilities and for the purposes mentioned above, the main people likely to have access to the data of Users of <a href="https://salledesport.com">https://salledesport.com</a> are mainly the agents of our customer service.
+      </p>
 
       <div ng-bind-html="rgpdHTML"></div>
 
-
-      <h2>8. Notification d’incident</h2>
+      <h2>8. Incident notification</h2>
       <p>
-        Quels que soient les efforts fournis, aucune méthode de transmission sur Internet et aucune méthode de stockage électronique n'est complètement sûre. Nous ne pouvons en conséquence pas garantir une sécurité absolue.
-        Si nous prenions connaissance d'une brèche de la sécurité, nous avertirions les utilisateurs concernés afin qu'ils puissent prendre les mesures appropriées. Nos procédures de notification d’incident tiennent compte de nos obligations légales, qu'elles se situent au niveau national ou européen. Nous nous engageons à informer pleinement nos clients de toutes les questions relevant de la sécurité de leur compte et à leur fournir toutes les informations nécessaires pour les aider à respecter leurs propres obligations réglementaires en matière de reporting.</p>
+        Despite our best efforts, no method of transmission over the Internet and no method of electronic storage is completely secure. We cannot, therefore, guarantee absolute security.
+        If we become aware of a security breach, we will notify the affected users so that they can take appropriate measures. Our incident notification procedures take into account our legal obligations, whether at the national or European level. We are committed to fully informing our clients of all matters relating to the security of their account and providing them with all necessary information to help them comply with their own regulatory reporting obligations.
+      </p>
       <p>
-        Aucune information personnelle de l'utilisateur du site <a href="https;//salledesport.com">https;//salledesport.com</a> n'est publiée à l'insu de l'utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l'hypothèse du rachat de <a href="https;//salledesport.com">https;//salledesport.com</a> et de ses droits permettrait la transmission des dites informations à l'éventuel acquéreur qui serait à son tour tenu de la même obligation de conservation et de modification des données vis à vis de l'utilisateur du site <a href="https;//salledesport.com">https;//salledesport.com</a>.</p>
+        No personal information of the user of the site <a href="https://salledesport.com">https://salledesport.com</a> is published without the user's knowledge, exchanged, transferred, assigned, or sold on any medium to third parties. Only the assumption of the purchase of <a href="https://salledesport.com">https://salledesport.com</a> and its rights would allow the transmission of such information to the potential purchaser who would, in turn, be bound by the same obligation to retain and modify the data concerning the user of the site <a href="https://salledesport.com">https://salledesport.com</a>.
+      </p>
 
-      <h3>Sécurité</h3>
-
-      <p>
-        Pour assurer la sécurité et la confidentialité des Données Personnelles et des Données Personnelles de Santé, <a href="https;//salledesport.com">https;//salledesport.com</a> utilise des réseaux protégés par des dispositifs standards tels que par pare-feu, la pseudonymisation, l’encryption et mot de passe. </p>
+      <h3>Security</h3>
 
       <p>
-        Lors du traitement des Données Personnelles, <a href="https;//salledesport.com">https;//salledesport.com</a>prend toutes les mesures raisonnables visant à les protéger contre toute perte, utilisation détournée, accès non autorisé, divulgation, altération ou destruction.</p>
+        To ensure the security and confidentiality of Personal Data and Health Personal Data, <a href="https://salledesport.com">https://salledesport.com</a> uses networks protected by standard devices such as firewalls, pseudonymization, encryption, and passwords.
+      </p>
 
-      <h2>9. Liens hypertextes « cookies » et balises (“tags”) internet</h2>
       <p>
-        Le site <a href="https;//salledesport.com">https;//salledesport.com</a> contient un certain nombre de liens hypertextes vers d’autres sites, mis en place avec l’autorisation de <a href="https;//salledesport.com">https;//salledesport.com</a>. Cependant, <a href="https;//salledesport.com">https;//salledesport.com</a> n’a pas la possibilité de vérifier le contenu des sites ainsi visités, et n’assumera en conséquence aucune responsabilité de ce fait.</p>
-      Sauf si vous décidez de désactiver les cookies, vous acceptez que le site puisse les utiliser. Vous pouvez à tout moment désactiver ces cookies et ce gratuitement à partir des possibilités de désactivation qui vous sont offertes et rappelées ci-après, sachant que cela peut réduire ou empêcher l’accessibilité à tout ou partie des Services proposés par le site.
+        When processing Personal Data, <a href="https://salledesport.com">https://salledesport.com</a> takes all reasonable measures to protect them against any loss, misuse, unauthorized access, disclosure, alteration, or destruction.
+      </p>
+
+      <h2>9. Hypertext links, “cookies” and internet tags</h2>
+      <p>
+        The site <a href="https://salledesport.com">https://salledesport.com</a> contains a number of hypertext links to other sites, set up with the authorization of <a href="https://salledesport.com">https://salledesport.com</a>. However, <a href="https://salledesport.com">https://salledesport.com</a> does not have the possibility to verify the content of the sites visited, and will therefore assume no responsibility for this.
+      </p>
+      Unless you decide to disable cookies, you agree that the site may use them. You can disable these cookies at any time and for free from the deactivation options available to you and recalled below, knowing that this may reduce or prevent access to all or part of the services offered by the site.
       <p></p>
 
-      <h3>9.1. « COOKIES »</h3>
+      <h3>9.1. “COOKIES”</h3>
       <p>
-        Un « cookie » est un petit fichier d’information envoyé sur le navigateur de l’Utilisateur et enregistré au sein du terminal de l’Utilisateur (ex : ordinateur, smartphone), (ci-après « Cookies »). Ce fichier comprend des informations telles que le nom de domaine de l’Utilisateur, le fournisseur d’accès Internet de l’Utilisateur, le système d’exploitation de l’Utilisateur, ainsi que la date et l’heure d’accès. Les Cookies ne risquent en aucun cas d’endommager le terminal de l’Utilisateur.</p>
+        A “cookie” is a small information file sent to the User's browser and stored within the User's terminal (e.g., computer, smartphone), (hereinafter “Cookies”). This file includes information such as the User's domain name, the User's Internet service provider, the User's operating system, as well as the date and time of access. Cookies do not risk damaging the User's terminal in any way.
+      </p>
       <p>
-        <a href="https;//salledesport.com">https;//salledesport.com</a> est susceptible de traiter les informations de l’Utilisateur concernant sa visite du Site, telles que les pages consultées, les recherches effectuées. Ces informations permettent à <a href="https;//salledesport.com">https;//salledesport.com</a> d’améliorer le contenu du Site, de la navigation de l’Utilisateur.</p>
+        <a href="https://salledesport.com">https://salledesport.com</a> may process the User's information regarding their visit to the Site, such as the pages viewed and searches performed. This information allows <a href="https://salledesport.com">https://salledesport.com</a> to improve the content of the Site and the User's navigation.
+      </p>
       <p>
-        Les Cookies facilitant la navigation et/ou la fourniture des services proposés par le Site, l’Utilisateur peut configurer son navigateur pour qu’il lui permette de décider s’il souhaite ou non les accepter de manière à ce que des Cookies soient enregistrés dans le terminal ou, au contraire, qu’ils soient rejetés, soit systématiquement, soit selon leur émetteur. L’Utilisateur peut également configurer son logiciel de navigation de manière à ce que l’acceptation ou le refus des Cookies lui soient proposés ponctuellement, avant qu’un Cookie soit susceptible d’être enregistré dans son terminal. <a href="https;//salledesport.com">https;//salledesport.com</a> informe l’Utilisateur que, dans ce cas, il se peut que les fonctionnalités de son logiciel de navigation ne soient pas toutes disponibles.</p>
+        Since Cookies facilitate navigation and/or the provision of services offered by the Site, the User can configure their browser to allow them to decide whether or not to accept them so that Cookies are stored in the terminal or, on the contrary, that they are rejected, either systematically or according to their issuer. The User can also configure their browser software so that the acceptance or refusal of Cookies is proposed punctually, before a Cookie is likely to be stored in their terminal. <a href="https://salledesport.com">https://salledesport.com</a> informs the User that, in this case, it is possible that the functionalities of their browser software are not all available.
+      </p>
       <p>
-        Si l’Utilisateur refuse l’enregistrement de Cookies dans son terminal ou son navigateur, ou si l’Utilisateur supprime ceux qui y sont enregistrés, l’Utilisateur est informé que sa navigation et son expérience sur le Site peuvent être limitées. Cela pourrait également être le cas lorsque <a href="https;//salledesport.com">https;//salledesport.com</a> ou l’un de ses prestataires ne peut pas reconnaître, à des fins de compatibilité technique, le type de navigateur utilisé par le terminal, les paramètres de langue et d’affichage ou le pays depuis lequel le terminal semble connecté à Internet.</p>
+        If the User refuses the storage of Cookies in their terminal or browser, or if the User deletes those that are stored there, the User is informed that their navigation and experience on the Site may be limited. This could also be the case when <a href="https://salledesport.com">https://salledesport.com</a> or one of its providers cannot recognize, for technical compatibility purposes, the type of browser used by the terminal, the language and display settings, or the country from which the terminal appears to be connected to the Internet.
+      </p>
       <p>
-        Le cas échéant, <a href="https;//salledesport.com">https;//salledesport.com</a> décline toute responsabilité pour les conséquences liées au fonctionnement dégradé du Site et des services éventuellement proposés par <a href="https;//salledesport.com">https;//salledesport.com</a>, résultant (i) du refus de Cookies par l’Utilisateur (ii) de l’impossibilité pour <a href="https;//salledesport.com">https;//salledesport.com</a> d’enregistrer ou de consulter les Cookies nécessaires à leur fonctionnement du fait du choix de l’Utilisateur. Pour la gestion des Cookies et des choix de l’Utilisateur, la configuration de chaque navigateur est différente. Elle est décrite dans le menu d’aide du navigateur, qui permettra de savoir de quelle manière l’Utilisateur peut modifier ses souhaits en matière de Cookies.</p>
+        If applicable, <a href="https://salledesport.com">https://salledesport.com</a> declines all responsibility for the consequences related to the degraded functioning of the Site and the services possibly offered by <a href="https://salledesport.com">https://salledesport.com</a>, resulting (i) from the refusal of Cookies by the User (ii) from the impossibility for <a href="https://salledesport.com">https://salledesport.com</a> to store or consult the Cookies necessary for their functioning due to the User's choice. For the management of Cookies and the User's choices, the configuration of each browser is different. It is described in the help menu of the browser, which will allow the User to know how to modify their wishes regarding Cookies.
+      </p>
       <p>
-        À tout moment, l’Utilisateur peut faire le choix d’exprimer et de modifier ses souhaits en matière de Cookies. <a href="https;//salledesport.com">https;//salledesport.com</a> pourra en outre faire appel aux services de prestataires externes pour l’aider à recueillir et traiter les informations décrites dans cette section.</p>
+        At any time, the User can choose to express and modify their wishes regarding Cookies. <a href="https://salledesport.com">https://salledesport.com</a> may also use the services of external providers to help it collect and process the information described in this section.
+      </p>
       <p>
-        Enfin, en cliquant sur les icônes dédiées aux réseaux sociaux Twitter, Facebook, Linkedin et Google Plus figurant sur le Site de <a href="https;//salledesport.com">https;//salledesport.com</a> ou dans son application mobile et si l’Utilisateur a accepté le dépôt de cookies en poursuivant sa navigation sur le Site Internet ou l’application mobile de <a href="https;//salledesport.com">https;//salledesport.com</a>, Twitter, Facebook, Linkedin et Google Plus peuvent également déposer des cookies sur vos terminaux (ordinateur, tablette, téléphone portable).</p>
+        Finally, by clicking on the social network icons Twitter, Facebook, LinkedIn, and Google Plus appearing on the <a href="https://salledesport.com">https://salledesport.com</a> Site or in its mobile application and if the User has accepted the deposit of cookies by continuing their navigation on the Website or the mobile application of <a href="https://salledesport.com">https://salledesport.com</a>, Twitter, Facebook, LinkedIn, and Google Plus may also place cookies on your terminals (computer, tablet, mobile phone).
+      </p>
       <p>
-        Ces types de cookies ne sont déposés sur vos terminaux qu’à condition que vous y consentiez, en continuant votre navigation sur le Site Internet ou l’application mobile de <a href="https;//salledesport.com">https;//salledesport.com</a>. À tout moment, l’Utilisateur peut néanmoins revenir sur son consentement à ce que <a href="https;//salledesport.com">https;//salledesport.com</a> dépose ce type de cookies.</p>
+        These types of cookies are only placed on your terminals if you consent to them by continuing your navigation on the Website or the mobile application of <a href="https://salledesport.com">https://salledesport.com</a>. At any time, the User can nevertheless reconsider their consent for <a href="https://salledesport.com">https://salledesport.com</a> to place this type of cookie.
+      </p>
 
       <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
 
