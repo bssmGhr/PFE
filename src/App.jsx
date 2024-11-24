@@ -18,6 +18,12 @@ import AdminFooter from "./admincomponents/AdminFooter"
 import PaymentSection from "./admincomponents/PaymentSection"
 import AdminAttendanceSection from './admincomponents/AdminAttendanceSection';
 import AdminCurrentAttendanceSection from "./admincomponents/AdminCurrentAttendance"
+import AdminTermsOfService from './admincomponents/MentionsLegales';
+import AdminPolitiqueDeConfidentialite from './admincomponents/PolitiqueDeConfidentialite';
+import TermsOfService from './components/MentionsLegales';
+import PolitiqueDeConfidentialite from './components/PolitiqueDeConfidentialite';
+
+
 const App = () => {
     const location = useLocation();
     const isAdminRoute = location.pathname.startsWith('/admin');
@@ -39,6 +45,11 @@ const App = () => {
                 <Route path="/adminattendancesection" element={<AdminAttendanceSection />} />
                 <Route path="/admincurrentattendance" element={<AdminCurrentAttendanceSection />} />
                 <Route path="/adminpaymentsection" element={<PaymentSection />}></Route>
+                <Route path="/adminprivacypolicy" element={<AdminPolitiqueDeConfidentialite />}></Route>
+                <Route path="/admintermsofservice" element={<AdminTermsOfService />}></Route>
+                <Route path="/privacypolicy" element={<PolitiqueDeConfidentialite />}></Route>
+                <Route path="/termsofservice" element={<TermsOfService />}></Route>
+
             </Routes>
             {isAdminRoute ? <AdminFooter /> : <Footer />}
         </div>
