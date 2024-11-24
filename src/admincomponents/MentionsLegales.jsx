@@ -203,30 +203,27 @@ function MentionsLegales() {
         These types of cookies are only placed on your terminals if you consent to them by continuing your navigation on the Website or the mobile application of <a href="https://salledesport.com">https://salledesport.com</a>. At any time, the User can nevertheless reconsider their consent for <a href="https://salledesport.com">https://salledesport.com</a> to place this type of cookie.
       </p>
 
-      <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
-
-
-      <p>
-
-        <a href="https;//salledesport.com">https;//salledesport.com</a> peut employer occasionnellement des balises Internet (également appelées « tags », ou balises d’action, GIF à un pixel, GIF transparents, GIF invisibles et GIF un à un) et les déployer par l’intermédiaire d’un partenaire spécialiste d’analyses Web susceptible de se trouver (et donc de stocker les informations correspondantes, y compris l’adresse IP de l’Utilisateur) dans un pays étranger.</p>
+      <h3>Article 9.2. INTERNET TAGS</h3>
 
       <p>
-        Ces balises sont placées à la fois dans les publicités en ligne permettant aux internautes d’accéder au Site, et sur les différentes pages de celui-ci.
+        <a href="https://salledesport.com">https://salledesport.com</a> may occasionally use Internet tags (also known as "tags," or action tags, one-pixel GIFs, transparent GIFs, invisible GIFs, and one-to-one GIFs) and deploy them through a web analytics partner that may be located (and therefore store the corresponding information, including the User's IP address) in a foreign country.
+      </p>
+
+      <p>
+        These tags are placed both in online advertisements allowing Internet users to access the Site and on various pages of the Site.
       </p>
       <p>
-        Cette technologie permet à <a href="https;//salledesport.com">https;//salledesport.com</a> d’évaluer les réponses des visiteurs face au Site et l’efficacité de ses actions (par exemple, le nombre de fois où une page est ouverte et les informations consultées), ainsi que l’utilisation de ce Site par l’Utilisateur. </p>
+        This technology allows <a href="https://salledesport.com">https://salledesport.com</a> to evaluate the responses of visitors to the Site and the effectiveness of its actions (for example, the number of times a page is opened and the information viewed), as well as the use of this Site by the User.
+      </p>
       <p>
-        Le prestataire externe pourra éventuellement recueillir des informations sur les visiteurs du Site et d’autres sites Internet grâce à ces balises, constituer des rapports sur l’activité du Site à l’attention de <a href="https;//salledesport.com">https;//salledesport.com</a>, et fournir d’autres services relatifs à l’utilisation de celui-ci et d’Internet.</p>
+        The external provider may collect information about visitors to the Site and other websites through these tags, compile reports on Site activity for <a href="https://salledesport.com">https://salledesport.com</a>, and provide other services related to the use of the Site and the Internet.
+      </p>
+
+      <h2>10. Applicable law and jurisdiction.</h2>
       <p>
-      </p><h2>10. Droit applicable et attribution de juridiction.</h2>
-      <p>
-        Tout litige en relation avec l’utilisation du site <a href="https;//salledesport.com">https;//salledesport.com</a> est soumis au droit français.
-        En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de sousse</p>
-
-
-
-
-
+        Any dispute related to the use of the site <a href="https://salledesport.com">https://salledesport.com</a> is subject to French law.
+        Except where the law does not permit it, exclusive jurisdiction is granted to the competent courts of Sousse.
+      </p>
     </div>
   )
 }
