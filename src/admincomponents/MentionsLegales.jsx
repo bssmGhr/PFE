@@ -75,36 +75,30 @@ function MentionsLegales() {
       <p><a href="https://salledesport.com">https://salledesport.com</a> cannot also be held responsible for indirect damages (such as, for example, a loss of market or loss of opportunity) resulting from the use of the site <a href="https://salledesport.com">https://salledesport.com</a>.
         Interactive spaces (possibility to ask questions in the contact area) are available to users. <a href="https://salledesport.com">https://salledesport.com</a> reserves the right to delete, without prior notice, any content posted in this space that would contravene the applicable law in France, in particular the provisions relating to data protection. If necessary, <a href="https://salledesport.com">https://salledesport.com</a> also reserves the possibility of questioning the civil and/or criminal liability of the user, particularly in the case of messages of a racist, offensive, defamatory, or pornographic nature, regardless of the medium used (text, photograph, etc.).</p>
 
-      <h2>7. Gestion des données personnelles.</h2>
+      <h2>7. Management of personal data.</h2>
 
-      <p>Le Client est informé des réglementations concernant la communication marketing, la loi du 21 Juin 2014 pour la confiance dans l’Economie Numérique, la Loi Informatique et Liberté du 06 Août 2004 ainsi que du Règlement Général sur la Protection des Données (RGPD : n° 2016-679). </p>
+      <p>The Client is informed of the regulations concerning marketing communication, the law of June 21, 2014, for confidence in the Digital Economy, the Data Protection Act of August 6, 2004, as well as the General Data Protection Regulation (GDPR: No. 2016-679).</p>
 
-      <h3>7.1 Responsables de la collecte des données personnelles</h3>
+      <h3>7.1 Responsible for the collection of personal data</h3>
 
-      <p>Pour les Données Personnelles collectées dans le cadre de la création du compte personnel de l’Utilisateur et de sa navigation sur le Site, le responsable du traitement des Données Personnelles est : salon de chat. <a href="https;//salledesport.com">https;//salledesport.com</a>est représenté par walid ben abdesalam, son représentant légal</p>
+      <p>For the Personal Data collected as part of the creation of the User's personal account and their navigation on the Site, the person responsible for processing Personal Data is: salon de chat. <a href="https://salledesport.com">https://salledesport.com</a> is represented by Walid Ben Abdesalam, its legal representative.</p>
 
-      <p>En tant que responsable du traitement des données qu’il collecte, <a href="https;//salledesport.com">https;//salledesport.com</a> s’engage à respecter le cadre des dispositions légales en vigueur. Il lui appartient notamment au Client d’établir les finalités de ses traitements de données, de fournir à ses prospects et clients, à partir de la collecte de leurs consentements, une information complète sur le traitement de leurs données personnelles et de maintenir un registre des traitements conforme à la réalité.
-        Chaque fois que <a href="https;//salledesport.com">https;//salledesport.com</a> traite des Données Personnelles, <a href="https;//salledesport.com">https;//salledesport.com</a> prend toutes les mesures raisonnables pour s’assurer de l’exactitude et de la pertinence des Données Personnelles au regard des finalités pour lesquelles <a href="https;//salledesport.com">https;//salledesport.com</a> les traite.</p>
+      <p>As the person responsible for processing the data it collects, <a href="https://salledesport.com">https://salledesport.com</a> undertakes to comply with the legal provisions in force. It is up to the Client to establish the purposes of their data processing, to provide their prospects and clients, from the collection of their consents, with complete information on the processing of their personal data, and to maintain a register of processing operations that is consistent with reality.
+        Each time <a href="https://salledesport.com">https://salledesport.com</a> processes Personal Data, <a href="https://salledesport.com">https://salledesport.com</a> takes all reasonable measures to ensure the accuracy and relevance of the Personal Data with regard to the purposes for which <a href="https://salledesport.com">https://salledesport.com</a> processes them.</p>
 
-      <h3>7.2 Finalité des données collectées</h3>
+      <h3>7.2 Purpose of the data collected</h3>
 
-      <p><a href="https;//salledesport.com">https;//salledesport.com</a> est susceptible de traiter tout ou partie des données : </p>
+      <p><a href="https://salledesport.com">https://salledesport.com</a> is likely to process all or part of the data:</p>
 
       <ul>
-
-        <li>pour permettre la navigation sur le Site et la gestion et la traçabilité des prestations et services commandés par l’utilisateur : données de connexion et d’utilisation du Site, facturation, historique des commandes, etc. </li>
-
-        <li>pour prévenir et lutter contre la fraude informatique (spamming, hacking…) : matériel informatique utilisé pour la navigation, l’adresse IP, le mot de passe (hashé) </li>
-
-        <li>pour améliorer la navigation sur le Site : données de connexion et d’utilisation </li>
-
-        <li>pour mener des enquêtes de satisfaction facultatives sur <a href="https;//salledesport.com">https;//salledesport.com</a> : adresse email </li>
-        <li>pour mener des campagnes de communication (sms, mail) : numéro de téléphone, adresse email</li>
-
-
+        <li>to allow navigation on the Site and the management and traceability of services and services ordered by the user: connection and use data of the Site, billing, order history, etc.</li>
+        <li>to prevent and combat computer fraud (spamming, hacking, etc.): computer equipment used for navigation, IP address, password (hashed)</li>
+        <li>to improve navigation on the Site: connection and usage data</li>
+        <li>to conduct optional satisfaction surveys on <a href="https://salledesport.com">https://salledesport.com</a>: email address</li>
+        <li>to conduct communication campaigns (sms, email): phone number, email address</li>
       </ul>
 
-      <p><a href="https;//salledesport.com">https;//salledesport.com</a> ne commercialise pas vos données personnelles qui sont donc uniquement utilisées par nécessité ou à des fins statistiques et d’analyses.</p>
+      <p><a href="https://salledesport.com">https://salledesport.com</a> does not sell your personal data, which are therefore only used by necessity or for statistical and analysis purposes.</p>
 
       <h3>7.3 Droit d’accès, de rectification et d’opposition</h3>
 
