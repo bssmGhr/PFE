@@ -15,7 +15,7 @@ import { useNavigate } from 'react-router-dom';
             return false;
         }
         try { 
-            const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/endpoint`, 
+            const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/endpoint/users/signup`, 
                 { name, email, password }); console.log('Réponse du serveur:', response.data);
              } catch (error) { console.error('Erreur lors de l\'envoi des données:', error); }
         //navigate('/connexion');

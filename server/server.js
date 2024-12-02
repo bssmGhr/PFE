@@ -4,12 +4,13 @@ const dotenv = require("dotenv");
 const app = express();
 const port = 3000;
 const { client, connectDB } = require('./config/db')
+const users=require('./routes/users')
 dotenv.config();
 // Middleware to parse JSON
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "../src")));
-
+app.use('/api/endpoint/users',users)
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 
 // Serve static files from React's build folder
