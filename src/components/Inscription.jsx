@@ -1,9 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
-function Inscription() {
+ function Inscription() {
     const navigate = useNavigate();
-    function validateSignup(e) {
+    async function validateSignup(e) {
         e.preventDefault()
         const name = document.getElementById('signup-name').value;
         const email = document.getElementById('signup-email').value;
@@ -14,7 +14,11 @@ function Inscription() {
             alert("Please fill in all fields.");
             return false;
         }
-        navigate('/connexion');
+        try { 
+            const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/endpoint`, 
+                { name, email, password }); console.log('Réponse du serveur:', response.data);
+             } catch (error) { console.error('Erreur lors de l\'envoi des données:', error); }
+        //navigate('/connexion');
     }
     function toggleForm() {
 
@@ -35,7 +39,7 @@ function Inscription() {
                 </div>
                 <div className="mb-3">
                     <label htmlFor="signup-password" className="form-label">Password:</label>
-                    <input type="password" className="form-control" id="signup-password" name="password" required minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}" />
+                    <input type="password" className="form-control" id="signup-password" name="password" required minLength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}" />
                     <div className="invalid-feedback">
                         Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character.
                     </div>
