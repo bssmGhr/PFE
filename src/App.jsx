@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import React from 'react';
 
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
+
 import Footer from './components/Footer';
 import './styles/style.css';
 import Home from './components/Home'

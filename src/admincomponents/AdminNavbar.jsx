@@ -6,7 +6,7 @@ function AdminNavbar() {
     const isAdminRoute = location.pathname === '/admin';
     return (
         <header className="py-4">
-            <h1 className="text-center">GO TO GYM Admin</h1>
+            
             <nav className="nav justify-content-center">
                 {!isAdminRoute && <Link to="/admin">Admin</Link>}
                 {isAdminRoute && <a href="#Members">Members</a>}

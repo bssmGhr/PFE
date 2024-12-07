@@ -5,7 +5,7 @@ import AdminNosAbonnements from './AdminNosAbonnements'
 
 function Admin() {
     return (
-        <div>Admin
+        <div>
             <AdminMembersTable />
             <AdminTrainers />
             <AdminNosAbonnements />
