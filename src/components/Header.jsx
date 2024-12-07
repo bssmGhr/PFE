@@ -25,7 +25,7 @@ function Header() {
                         </ul>
                     </nav>
                     <div className="d-flex">
-                        <Link className="btn btn-outline-light me-2" to="inscription">Login</Link>
+                        <Link className="btn btn-outline-light me-2" to="connexion">Login</Link>
                         <Link className="btn btn-warning" to="inscription">Sign-Up</Link>
                     </div>
 
