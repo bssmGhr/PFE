@@ -33,7 +33,7 @@ const App = () => {
         <div>
             {isAdminRoute ? <AdminHeader /> : <Header />}
              
-         <div className='content content1'>
+         <div className="d-flex flex-column min-vh-100">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/index" element={<Home />} />
