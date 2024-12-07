@@ -3,6 +3,8 @@ import React from 'react'
 function AdminMembersTable() {
     return (
         <section className="my-5" id="Members">
+            <h3>Total Members</h3>
+            <p id="total-members" className="display-4">0</p>
             <h2>Members List</h2>
             <table className="table table-striped">
                 <thead>

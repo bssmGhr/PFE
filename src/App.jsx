@@ -30,10 +30,10 @@ const App = () => {
     const isAdminRoute = location.pathname.startsWith('/admin');
     console.log(isAdminRoute)
     return (
-        <div>
+        <div >
             {isAdminRoute ? <AdminHeader /> : <Header />}
              
-            
+          
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/index" element={<Home />} />
@@ -52,6 +52,7 @@ const App = () => {
                 <Route path="/termsofservice" element={<TermsOfService />}></Route>
                 <Route path="/adminmembers" element={<AdminMembersTable />}></Route>
             </Routes>
+           
             {isAdminRoute ? <AdminFooter /> : <Footer />}
         </div>
     );
