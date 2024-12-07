@@ -9,7 +9,7 @@ function AdminNavbar() {
             
             <nav className="nav justify-content-center">
                 {!isAdminRoute && <Link to="/admin">Admin</Link>}
-                {isAdminRoute && <a href="#Members">Members</a>}
+                {isAdminRoute && <a href="/adminmembers">Members</a>}
                 {isAdminRoute && <a href="#Trainers">Trainers</a>}
                 <Link to="/admincurrentattendance">Current Attendance</Link>
                 {isAdminRoute && <a href="#Abonnements">Abonnements</a>}
