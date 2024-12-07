@@ -24,7 +24,7 @@ import AdminTermsOfService from './admincomponents/MentionsLegales';
 import AdminPolitiqueDeConfidentialite from './admincomponents/PolitiqueDeConfidentialite';
 import TermsOfService from './components/MentionsLegales';
 import PolitiqueDeConfidentialite from './components/PolitiqueDeConfidentialite';
-
+ 
 const App = () => {
     const location = useLocation();
     const isAdminRoute = location.pathname.startsWith('/admin');
@@ -33,7 +33,7 @@ const App = () => {
         <div >
             {isAdminRoute ? <AdminHeader /> : <Header />}
              
-          
+         
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/index" element={<Home />} />
@@ -52,7 +52,7 @@ const App = () => {
                 <Route path="/termsofservice" element={<TermsOfService />}></Route>
                 <Route path="/adminmembers" element={<AdminMembersTable />}></Route>
             </Routes>
-           
+            
             {isAdminRoute ? <AdminFooter /> : <Footer />}
         </div>
     );
