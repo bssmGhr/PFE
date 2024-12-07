@@ -20,7 +20,7 @@ import axios from 'axios'
             const response = await axios.post(`${api_url}/api/endpoint/users/signup`, 
                 { name, email, password }); console.log('Réponse du serveur:', response.data);
              } catch (error) { console.error('Erreur lors de l\'envoi des données:', error); }
-       //    navigate('/connexion');
+          navigate('/connexion');
     }
     function toggleForm() {
 
