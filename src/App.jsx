@@ -31,8 +31,8 @@ const App = () => {
     return (
         <div>
             {isAdminRoute ? <AdminHeader /> : <Header />}
-            <h1>Hello, React with Vite!</h1>
-            <HeroSection />
+             
+            
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/index" element={<Home />} />
