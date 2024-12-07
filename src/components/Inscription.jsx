@@ -1,7 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import axios from 'axios'
 
  function Inscription() {
+    const api_url = import.meta.env.VITE_BACKEND_URL
     const navigate = useNavigate();
     async function validateSignup(e) {
         e.preventDefault()
@@ -15,20 +17,20 @@ import { useNavigate } from 'react-router-dom';
             return false;
         }
         try { 
-            const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/endpoint/users/signup`, 
+            const response = await axios.post(`${api_url}/api/endpoint/users/signup`, 
                 { name, email, password }); console.log('Réponse du serveur:', response.data);
              } catch (error) { console.error('Erreur lors de l\'envoi des données:', error); }
-        //navigate('/connexion');
+       //    navigate('/connexion');
     }
     function toggleForm() {
 
         console.log('ok')
-        navigate('/connexion');
+      navigate('/connexion');
     }
     return (
         <div className="container" id="signup-container">
             <h2 className="text-center mb-4">Sign Up</h2>
-            <form id="signup-form" onSubmit={(e) => validateSignup(e)}>
+            <form id="signup-form" >
                 <div className="mb-3">
                     <label htmlFor="signup-name" className="form-label">Name:</label>
                     <input type="text" className="form-control" id="signup-name" name="name" required />
@@ -46,9 +48,12 @@ import { useNavigate } from 'react-router-dom';
 
 
                 </div>
-                <button type="submit" className="btn btn-success w-100">Sign Up</button>
+                <button type="button" className="btn btn-success w-100"
+                onClick={(e) => validateSignup(e)}
+                
+                >Sign Up</button>
             </form>
-            <a href="#" className="d-block text-center mt-3" onClick={toggleForm}>Already have an account? Login</a>
+            <a href="#" className="d-block text-center mt-3" onClick={()=>toggleForm}>Already have an account? Login</a>
         </div>
     )
 }
