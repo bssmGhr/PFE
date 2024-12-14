@@ -118,17 +118,16 @@ router.post("/signup", async (req, res) => {
             return res.status(400).json({ message: "User already exists." });
         }
 
-        // Insert the new user
-        const result = await usersCollection.insertOne({
-            name,
-            email,
-            password: hashedPassword,
-        });
+        // Create a new user instance
+         const newUser = new User({ username: name, email, password: hashedPassword, });
+          // Save the new user to the database 
+          const result = await newUser.save();
 
         res
             .status(201)
             .json({ message: "User created.", userId: result.insertedId });
     } catch (error) {
+        console.log(error)
         res.status(500).json({ message: "Error creating user.", error });
     }
 });

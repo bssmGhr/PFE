@@ -1,18 +1,16 @@
+
 footer {
-    background-color: #c7c5bf;
-    ;
-    color: #343a40;
-    padding: 2rem 0;
+    background-color: black;
+    padding: 1rem 0;
     text-align: center;
 }
-
 footer p {
     margin: 0;
     font-size: 1rem;
 }
 
 footer a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     margin: 0 0.5rem;
     transition: color 0.3s ease;

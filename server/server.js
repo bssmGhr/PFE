@@ -2,9 +2,12 @@ const express = require("express");
 const path = require("path");
 const dotenv = require("dotenv");
 const app = express();
+const cors=require('cors')
 const port = 3000;
 const { client, connectDB } = require('./config/db')
 const users=require('./routes/users')
+app.use(cors()); 
+app.get('/api/endpoint', (req, res) => { res.json({ message: 'CORS enabled' }); });
 dotenv.config();
 // Middleware to parse JSON
 app.use(express.json());
