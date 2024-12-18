@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import {Link} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 function Connexion() {
     const api_url = import.meta.env.VITE_BACKEND_URL
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [response,setResponse]=useState('');
 
     async function validateLogin(e) {
         e.preventDefault();
@@ -18,8 +20,10 @@ function Connexion() {
         try {
             const response = await axios.post(`${api_url}/api/endpoint/users/login`, { email, password });
             console.log('Réponse du serveur:', response.data);
+            
         } catch (error) {
             console.error('Erreur lors de l\'envoi des données:', error);
+            setResponse('Incorrect username or password or not signed up yet')
         }
     }
 
@@ -58,6 +62,7 @@ function Connexion() {
                 </div>
                 <button type="submit" className="btn btn-primary w-100">Login</button>
             </form>
+            <div>{response}</div>
             <Link to="/inscription" className="d-block text-center mt-3">Don't have an account? Sign Up</Link>
         </div>
     );
