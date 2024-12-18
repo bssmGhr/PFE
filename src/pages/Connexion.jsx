@@ -7,6 +7,7 @@ function Connexion() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [response,setResponse]=useState('');
+    const navigate=useState('/')
 
     async function validateLogin(e) {
         e.preventDefault();
@@ -20,7 +21,7 @@ function Connexion() {
         try {
             const response = await axios.post(`${api_url}/api/endpoint/users/login`, { email, password });
             console.log('Réponse du serveur:', response.data);
-            
+            navigate('/')
         } catch (error) {
             console.error('Erreur lors de l\'envoi des données:', error);
             setResponse('Incorrect username or password or not signed up yet')
