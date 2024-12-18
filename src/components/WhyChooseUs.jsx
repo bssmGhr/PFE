@@ -37,7 +37,7 @@ function WhyChooseUs() {
                         <div className="p-4 bg-white rounded shadow-sm h-100">
                             <h4>Prime Location</h4>
                             <p>
-                                Conveniently located in the heart of [City] with ample parking
+                                Conveniently located in the heart of Mahdia with ample parking
                                 available for our members.
                             </p>
                         </div>
