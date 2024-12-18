@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'
-
+import {Link} from "react-router-dom"
  function Inscription() {
     const api_url = import.meta.env.VITE_BACKEND_URL
     const navigate = useNavigate();
@@ -53,7 +53,7 @@ import axios from 'axios'
                 
                 >Sign Up</button>
             </form>
-            <a href="#" className="d-block text-center mt-3" onClick={()=>toggleForm}>Already have an account? Login</a>
+            <Link to="/connexion" className="d-block text-center mt-3">Already have an account? Login</Link>
         </div>
     )
 }

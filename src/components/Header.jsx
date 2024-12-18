@@ -13,7 +13,7 @@ function Header() {
                     <div className="d-flex">
                         <Link className="btn btn-outline-light me-2" to="plans">Plans</Link>
                         <Link className="btn btn-outline-light me-2" to="contact">Contact</Link>
-                        <Link className="btn btn-outline-light me-2" to="inscription">Login</Link>
+                        <Link className="btn btn-outline-light me-2" to="connexion">Login</Link>
                         <Link className="btn btn-warning" to="inscription">Sign-Up</Link>
                     </div>
 
