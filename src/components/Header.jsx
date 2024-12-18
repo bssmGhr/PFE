@@ -1,7 +1,8 @@
 import React from 'react'
 import imagesjfif from "../assets/images.jfif"
 import { Link } from 'react-router-dom'
-function Header() {
+function Header({ isLoggedIn, username, onLogout }) {
+
     return (
         <header className="bg-dark text-white py-3">
             <div className="container">
@@ -13,9 +14,18 @@ function Header() {
                     <div className="d-flex">
                         <Link className="btn btn-outline-light me-2" to="plans">Plans</Link>
                         <Link className="btn btn-outline-light me-2" to="contact">Contact</Link>
-                        <Link className="btn btn-outline-light me-2" to="connexion">Login</Link>
-                        <Link className="btn btn-warning" to="inscription">Sign-Up</Link>
-                    </div>
+                        
+                        {isLoggedIn ? ( 
+                            <div className="dropdown"> 
+                            <button className="btn btn-outline-light me-2 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                 {username} </button> 
+                                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
+                                    <li><button className="dropdown-item" onClick={onLogout}>Logout</button></li> 
+                                    </ul>
+                                     </div> ) : ( <> 
+                                     <Link className="btn btn-outline-light me-2" to="/connexion">Login</Link> 
+                                     <Link className="btn btn-warning" to="/inscription">Sign-Up</Link> </> )}
+                           </div>
 
                 </div>
             </div>

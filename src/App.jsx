@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import React from 'react';
+import React ,{useState} from 'react';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -15,16 +15,25 @@ import PolitiqueDeConfidentialite from './pages/PolitiqueDeConfidentialite';
 
 
 const App = () => {
+    const [isLoggedIn, setIsLoggedIn] = useState(false); 
+    const [username, setUsername] = useState(''); 
+    const handleLogin = () => { 
+        setIsLoggedIn(true); 
+        setUsername('JohnDoe'); 
+    }
+     const handleLogout = () => { 
+        setIsLoggedIn(false); 
+        setUsername(''); };
     return (
         <Router>
-            <Header></Header>
+            <Header isLoggedIn={isLoggedIn} username={username} onLogout={handleLogout}></Header>
 
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/plans" element={<Plans />} />
                 <Route path="/inscription" element={<Inscription />} />
-                <Route path="/connexion" element={<Connexion />} />
+                <Route path="/connexion" element={<Connexion onLogin={handleLogin}/>} />
                 <Route path="/privacypolicy" element={<PolitiqueDeConfidentialite />}></Route>
                 <Route path="/termsofservice" element={<TermsOfService />}></Route>
 
