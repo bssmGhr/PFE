@@ -1,8 +1,9 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'
 import {Link} from "react-router-dom"
  function Inscription() {
+    const [response,setResponse]=useState('')
     const api_url = import.meta.env.VITE_BACKEND_URL
     const navigate = useNavigate();
     async function validateSignup(e) {
@@ -19,8 +20,12 @@ import {Link} from "react-router-dom"
         try { 
             const response = await axios.post(`${api_url}/api/endpoint/users/signup`, 
                 { name, email, password }); console.log('Réponse du serveur:', response.data);
-             } catch (error) { console.error('Erreur lors de l\'envoi des données:', error); }
-          navigate('/connexion');
+                navigate('/connexion');
+            } catch (error) { console.error('Erreur lors de l\'envoi des données:', error);
+
+                setResponse('User already registered please login')
+             }
+          
     }
     function toggleForm() {
 
@@ -53,6 +58,7 @@ import {Link} from "react-router-dom"
                 
                 >Sign Up</button>
             </form>
+         {response}
             <Link to="/connexion" className="d-block text-center mt-3">Already have an account? Login</Link>
         </div>
     )
