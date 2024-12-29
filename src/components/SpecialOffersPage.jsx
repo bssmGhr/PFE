@@ -4,7 +4,7 @@ function SpecialOffersPage() {
     return (
         <section className="py-5 text-center">
             <div className="container">
-                <h2 className="mb-5" id="special">Special Offers – Get Fit for Less</h2>
+                <h2 className="mb-5" id="special">Special Offers - Get Fit for Less</h2>
                 <div className="row justify-content-center g-4">
                     <div className="col-md-4">
                         <div className="p-4 bg-primary text-white rounded shadow-sm h-100">
@@ -34,7 +34,7 @@ function SpecialOffersPage() {
                         <div className="p-4 bg-primary text-white rounded shadow-sm h-100">
                             <h4>Referral Program</h4>
                             <p>
-                                Bring a friend and you’ll both get 10% off your next month’s
+                                Bring a friend and you'll both get 10% off your next month’s
                                 membership fee.
                             </p>
                         </div>
