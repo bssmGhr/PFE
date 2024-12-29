@@ -17,13 +17,13 @@ function Footer() {
                     <div className="col-md-6">
                         <ul className="list-inline">
                             <li className="list-inline-item">
-                                <a href="#" className="text-white">Facebook</a>
+                                <a href="https://facebook.com" className="text-white">Facebook</a>
                             </li>
                             <li className="list-inline-item">
-                                <a href="#" className="text-white">Instagram</a>
+                                <a href="https://instagram.com" className="text-white">Instagram</a>
                             </li>
                             <li className="list-inline-item">
-                                <a href="#" className="text-white">Twitter</a>
+                                <a href="https://twitter.com" className="text-white">Twitter</a>
                             </li>
                         </ul>
                     </div>
