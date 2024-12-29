@@ -7,11 +7,11 @@ function HeroSection() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 mb-4 mb-lg-0">
                         <h1 className="display-4">
-                            We’re Here to Help You
+                            We're Here to Help You
                         </h1>
                         <p className="lead">
                             Have any questions or need assistance? Reach out to us, and our team will be more than happy to
-                            help. Whether you’re curious about memberships, classes, or anything else, we’ve got you
+                            help. Whether you're curious about memberships, classes, or anything else, we've got you
                             covered.
                         </p>
                     </div>
