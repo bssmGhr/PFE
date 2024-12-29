@@ -123,7 +123,7 @@ function MentionsLegales() {
 
       <p>If the User wishes to know how <a href="https://salledesport.com">https://salledesport.com</a> uses their Personal Data, request to rectify them, or oppose their processing, the User can contact <a href="https://salledesport.com">https://salledesport.com</a> in writing at the following address:</p>
 
-      salon de chat – DPO, Amir <br />
+      salon de chat - DPO, Amir <br />
       Sousse 4060 Tunisia.
 
       <p>In this case, the User must indicate the Personal Data they would like <a href="https://salledesport.com">https://salledesport.com</a> to correct, update, or delete, by identifying themselves precisely with a copy of an identity document (identity card or passport).</p>
@@ -170,16 +170,16 @@ function MentionsLegales() {
         When processing Personal Data, <a href="https://salledesport.com">https://salledesport.com</a> takes all reasonable measures to protect them against any loss, misuse, unauthorized access, disclosure, alteration, or destruction.
       </p>
 
-      <h2>9. Hypertext links, “cookies” and internet tags</h2>
+      <h2>9. Hypertext links, "cookies" and internet tags</h2>
       <p>
         The site <a href="https://salledesport.com">https://salledesport.com</a> contains a number of hypertext links to other sites, set up with the authorization of <a href="https://salledesport.com">https://salledesport.com</a>. However, <a href="https://salledesport.com">https://salledesport.com</a> does not have the possibility to verify the content of the sites visited, and will therefore assume no responsibility for this.
       </p>
       Unless you decide to disable cookies, you agree that the site may use them. You can disable these cookies at any time and for free from the deactivation options available to you and recalled below, knowing that this may reduce or prevent access to all or part of the services offered by the site.
       <p></p>
 
-      <h3>9.1. “COOKIES”</h3>
+      <h3>9.1. "COOKIES"</h3>
       <p>
-        A “cookie” is a small information file sent to the User's browser and stored within the User's terminal (e.g., computer, smartphone), (hereinafter “Cookies”). This file includes information such as the User's domain name, the User's Internet service provider, the User's operating system, as well as the date and time of access. Cookies do not risk damaging the User's terminal in any way.
+        A "cookie" is a small information file sent to the User's browser and stored within the User's terminal (e.g., computer, smartphone), (hereinafter “Cookies”). This file includes information such as the User's domain name, the User's Internet service provider, the User's operating system, as well as the date and time of access. Cookies do not risk damaging the User's terminal in any way.
       </p>
       <p>
         <a href="https://salledesport.com">https://salledesport.com</a> may process the User's information regarding their visit to the Site, such as the pages viewed and searches performed. This information allows <a href="https://salledesport.com">https://salledesport.com</a> to improve the content of the Site and the User's navigation.
