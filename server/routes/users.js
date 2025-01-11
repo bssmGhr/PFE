@@ -8,29 +8,14 @@ const jwt = require("jsonwebtoken");
 const { usersCollection } = require("../models/usersm");
 
 const User = usersCollection;
-
+const userController = require('../controllers/usersc');
 
 //Creer
 
-router.post("/users", async (req, res) => {
-    try {
-        const user = new User(req.body);
-        await user.save();
-        res.status(201).send(user);
-    } catch (error) {
-        res.status(400).send(error);
-    }
-});
+router.post("/users", userController.userspost);
 //Lire
 
-router.get("/users", async (req, res) => {
-    try {
-        const users = await User.find();
-        res.status(200).send(users);
-    } catch (error) {
-        res.status(500).send(error);
-    }
-});
+router.get("/users", userController.usersget);
 
 //Mise a jour
 
