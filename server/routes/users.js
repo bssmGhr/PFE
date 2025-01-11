@@ -137,7 +137,6 @@ router.put("/profile", authenticateToken, async (req, res) => {
     const { name, email, oldPassword, newPassword, userId } = req.body; // Assuming the request may include one or more of these fields
 
     try {
-        const usersCollection = client.db(database1).collection("users");
         const user = await usersCollection.findOne({
             _id: ObjectId.createFromHexString(userId),
         });
@@ -187,15 +186,17 @@ router.put("/profile", authenticateToken, async (req, res) => {
     }
 });
 
-router.put("/resetpassword", authenticateToken, async (req, res) => {
-    const { name, email, newPassword, userId } = req.body; // Assuming the request may include one or more of these fields
-
+router.put("/resetpassword", async (req, res) => {
+    const { email, password } = req.body; // Assuming the request may include one or more of these fields
+    const newPassword=password;
+    console.log('ok')
+    
+    
     try {
-        const usersCollection = client.db(database1).collection("users");
+        
         const user = await usersCollection.findOne({
-            _id: ObjectId.createFromHexString(userId),
+            email:email
         });
-
         if (!user) {
             return res.status(404).json({ message: "User not found" });
         }
@@ -204,23 +205,20 @@ router.put("/resetpassword", authenticateToken, async (req, res) => {
 
         // Construct the update query based on the fields provided in the request
         let updateQuery = {};
-        if (name) {
-            updateQuery.name = name;
-        }
-        if (email) {
-            updateQuery.email = email;
-        }
+        
+        
         if (newPassword) {
             updateQuery.password = newPassword;
         }
 
         // Update the user's profile based on the provided fields
+        console.log(user);
         const result = await usersCollection.findOneAndUpdate(
-            { _id: ObjectId.createFromHexString(userId) },
+            { _id: user._id },
             { $set: updateQuery },
             { returnOriginal: false }
         );
-
+        console.log(result);
         if (result) {
             res.status(200).json({
                 message: "User profile updated successfully",
@@ -230,9 +228,10 @@ router.put("/resetpassword", authenticateToken, async (req, res) => {
             res.status(404).json({ message: "User not found" });
         }
     } catch (error) {
+        console.log(error);
         res
-            .status(500)
-            .json({ message: "Error updating user profile", error: error.message });
+            .status(200)
+            .json({ message: "Error updating user password", error: error.message });
     }
 });
 

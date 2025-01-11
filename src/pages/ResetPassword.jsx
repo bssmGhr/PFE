@@ -1,6 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react';
+import axios from 'axios';
+import {Link} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 
 function ResetPassword() {
+    const api_url = import.meta.env.VITE_BACKEND_URL
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [response,setResponse]=useState('');
+    const navigate=useNavigate()
+
+    async function validateLogin(e) {
+        e.preventDefault();
+
+        // Custom validation
+        if (!email || !password) {
+            alert("Please fill in all fields.");
+            return false;
+        }
+        console.log(email, password);
+        try {
+            const response = await axios.put(`${api_url}/api/endpoint/users/resetpassword`, { email, password });
+            console.log('Réponse du serveur:', response.data);
+            onLogin(response.data.user);
+            navigate('/')
+        } catch (error) {
+            console.error('Erreur lors de l\'envoi des données:', error);
+            setResponse('Incorrect username or password or not signed up yet')
+        }
+    }
   return (
     <div>
          
