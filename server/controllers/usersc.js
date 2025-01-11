@@ -79,10 +79,24 @@ const userlogin= async (req, res) => {
         res.status(500).json({ message: "Error logging in.", error });
     }
 }
+// Middleware to verify JWT token
+function authenticateToken(req, res, next) {
+    const token =
+        req.headers["authorization"] && req.headers["authorization"].split(" ")[1];
+    console.log(token);
+    if (!token) return res.sendStatus(401);
+
+    jwt.verify(token, JWT_SECRET, (err, user) => {
+        if (err) return res.sendStatus(403);
+        req.user = user;
+        next();
+    });
+}
 module.exports={
     userspost,
     usersget,
     usersputid,
     usersdeleteid,
-    userlogin
+    userlogin,
+    authenticateToken
 }

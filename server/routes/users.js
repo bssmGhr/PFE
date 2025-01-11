@@ -28,19 +28,7 @@ router.delete("/users/:id", userController.usersdeleteid);
 // Login route
 router.post("/login",userController.userlogin);
 
-// Middleware to verify JWT token
-function authenticateToken(req, res, next) {
-    const token =
-        req.headers["authorization"] && req.headers["authorization"].split(" ")[1];
-    console.log(token);
-    if (!token) return res.sendStatus(401);
 
-    jwt.verify(token, JWT_SECRET, (err, user) => {
-        if (err) return res.sendStatus(403);
-        req.user = user;
-        next();
-    });
-}
 // Sign up route
 router.post("/signup", async (req, res) => {
     try {
@@ -71,7 +59,7 @@ router.post("/signup", async (req, res) => {
 
 const { ObjectId } = require("mongodb");
 // Update user profile route
-router.put("/profile", authenticateToken, async (req, res) => {
+router.put("/profile", userController.authenticateToken, async (req, res) => {
     const { name, email, oldPassword, newPassword, userId } = req.body; // Assuming the request may include one or more of these fields
 
     try {
