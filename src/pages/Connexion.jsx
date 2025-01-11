@@ -66,6 +66,7 @@ function Connexion({ onLogin }) {
             </form>
             <div>{response}</div>
             <Link to="/inscription" className="d-block text-center mt-3">Don't have an account? Sign Up</Link>
+            <Link to="/resetpassword" className="d-block text-center mt-3">Reset password</Link>
         </div>
     );
 }

@@ -60,6 +60,8 @@ import {Link} from "react-router-dom"
             </form>
          {response}
             <Link to="/connexion" className="d-block text-center mt-3">Already have an account? Login</Link>
+            <Link to="/resetpassword" className="d-block text-center mt-3">Reset password</Link>
+                   
         </div>
     )
 }
