@@ -12,6 +12,7 @@ import Inscription from './pages/Inscription';
 import Connexion from './pages/Connexion';
 import TermsOfService from './pages/MentionsLegales';
 import PolitiqueDeConfidentialite from './pages/PolitiqueDeConfidentialite';
+import ResetPassword from './pages/ResetPassword';
 
 
 const App = () => {
@@ -36,7 +37,7 @@ const App = () => {
                 <Route path="/connexion" element={<Connexion onLogin={handleLogin}/>} />
                 <Route path="/privacypolicy" element={<PolitiqueDeConfidentialite />}></Route>
                 <Route path="/termsofservice" element={<TermsOfService />}></Route>
-
+                <Route path="/resetpassword" element={<ResetPassword/>}></Route>
             </Routes>
             <Footer></Footer>
         </Router>
