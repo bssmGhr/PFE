@@ -119,6 +119,58 @@ const signupuser=async (req, res) => {
         res.status(500).json({ message: "Error creating user.", error });
     }
 }
+const profileuser=async (req, res) => {
+    const { name, email, oldPassword, newPassword, userId } = req.body; // Assuming the request may include one or more of these fields
+
+    try {
+        const user = await usersCollection.findOne({
+            _id: ObjectId.createFromHexString(userId),
+        });
+
+        if (!user) {
+            return res.status(404).json({ message: "User not found" });
+        }
+
+        // If newPassword is provided, verify old password before updating
+        if (newPassword) {
+            if (oldPassword !== user.password) {
+                return res.status(401).json({ message: "Invalid old password" });
+            }
+        }
+
+        // Construct the update query based on the fields provided in the request
+        let updateQuery = {};
+        if (name) {
+            updateQuery.name = name;
+        }
+        if (email) {
+            updateQuery.email = email;
+        }
+        if (newPassword) {
+            updateQuery.password = newPassword;
+        }
+
+        // Update the user's profile based on the provided fields
+        const result = await usersCollection.findOneAndUpdate(
+            { _id: ObjectId.createFromHexString(userId) },
+            { $set: updateQuery },
+            { returnOriginal: false }
+        );
+
+        if (result) {
+            res.status(200).json({
+                message: "User profile updated successfully",
+                user: result,
+            });
+        } else {
+            res.status(404).json({ message: "User not found" });
+        }
+    } catch (error) {
+        res
+            .status(500)
+            .json({ message: "Error updating user profile", error: error.message });
+    }
+}
 module.exports={
     userspost,
     usersget,
@@ -126,5 +178,6 @@ module.exports={
     usersdeleteid,
     userlogin,
     authenticateToken,
-    signupuser
+    signupuser,
+    profileuser
 }
