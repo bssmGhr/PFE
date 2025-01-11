@@ -200,12 +200,8 @@ const resetuserpassword=async (req, res) => {
 
         // Update the user's profile based on the provided fields
         console.log(user);
-        const result = await usersCollection.findOneAndUpdate(
-            { _id: user._id },
-            { $set: updateQuery },
-            { returnOriginal: false }
-        );
-        console.log(result);
+        Object.assign(user, updateQuery);
+        const result = await user.save();
         if (result) {
             res.status(200).json({
                 message: "User profile updated successfully",
