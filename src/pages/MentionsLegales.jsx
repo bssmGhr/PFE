@@ -8,7 +8,7 @@ function MentionsLegales() {
       <p><b>Client:</b> any professional or capable natural person within the meaning of Articles 1123 and following of the Civil Code, or legal entity, who visits the Site subject to these general conditions.<br />
         <b>Services and Benefits:</b> <a href="https://salledesport.com">https://salledesport.com</a> provides Clients with:</p>
 
-      <p><b>Content:</b> All the elements constituting the information present on the Site, including texts – images – videos.</p>
+      <p><b>Content:</b> All the elements constituting the information present on the Site, including texts - images - videos.</p>
 
       <p><b>Client Information:</b> Hereinafter referred to as "Information" which corresponds to all personal data that may be held by <a href="https://salledesport.com">https://salledesport.com</a> for the management of your account, customer relationship management, and for analysis and statistics purposes.</p>
 
@@ -19,13 +19,13 @@ function MentionsLegales() {
 
       <h2>1. Presentation of the website.</h2>
       <p>In accordance with Article 6 of Law No. 2004-575 of June 21, 2004, for confidence in the digital economy, it is specified to users of the website <a href="https://salledesport.com">https://salledesport.com</a> the identity of the various stakeholders involved in its creation and monitoring:</p>
-      <p><strong>Owner</strong>: SARL salon de chat Capital social of €10,000 VAT number: 78247584 – Sousse 4060 Tunisia<br />
+      <p><strong>Owner</strong>: SARL salon de chat Capital social of €10,000 VAT number: 78247584 - Sousse 4060 Tunisia<br />
 
-        <strong>Publication Manager</strong>: Walid Ben Abdesalam – benabdesslem.walid@gmail.com<br />
+        <strong>Publication Manager</strong>: Walid Ben Abdesalam - benabdesslem.walid@gmail.com<br />
         The publication manager can be a natural or legal person.<br />
-        <strong>Webmaster</strong>: Gharbi Bassem – 20814347<br />
-        <strong>Host</strong>: OVH – Tunisia 4060 Sousse 73828475<br />
-        <strong>Data Protection Officer</strong>: Amir – amir@gmail.com<br />
+        <strong>Webmaster</strong>: Gharbi Bassem - 20814347<br />
+        <strong>Host</strong>: OVH - Tunisia 4060 Sousse 73828475<br />
+        <strong>Data Protection Officer</strong>: Amir - amir@gmail.com<br />
       </p>
 
 
