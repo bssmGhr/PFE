@@ -22,6 +22,18 @@ const subscriptionSchema = new mongoose.Schema({
     price: { type: Number, required: true },
 });
 
+
+// Pre-save hook to hash the password 
+userSchema.pre('save', async function (next) { 
+    if (this.isModified('password')) 
+        { this.password = await bcrypt.hash(this.password, 10);
+
+         } next(); });
+         
+// Method to compare passwords 
+userSchema.methods.comparePassword = async function (candidatePassword) { 
+    return await bcrypt.compare(candidatePassword, this.password); 
+};
 const User = mongoose.model("User", userSchema);
 const Subscription = mongoose.model("Subscription", subscriptionSchema);
 module.exports = {

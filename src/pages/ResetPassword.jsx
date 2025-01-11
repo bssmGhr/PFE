@@ -23,7 +23,7 @@ function ResetPassword() {
             const response = await axios.put(`${api_url}/api/endpoint/users/resetpassword`, { email, password });
             console.log('Réponse du serveur:', response.data);
             setResponse('Password reset successfully')
-            navigate('/')
+            
         } catch (error) {
             console.error('Erreur lors de l\'envoi des données:', error);
             setResponse('Incorrect email')

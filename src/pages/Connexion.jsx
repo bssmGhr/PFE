@@ -24,8 +24,9 @@ function Connexion({ onLogin }) {
             onLogin(response.data.user);
             navigate('/')
         } catch (error) {
-            console.error('Erreur lors de l\'envoi des données:', error);
-            setResponse('Incorrect username or password or not signed up yet')
+            console.log(error)
+            //console.error('Erreur lors de l\'envoi des données:', error);
+            //setResponse('Incorrect username or password or not signed up yet')
         }
     }
 

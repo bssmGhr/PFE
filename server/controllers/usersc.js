@@ -57,18 +57,21 @@ const usersdeleteid=async (req, res) => {
 const userlogin= async (req, res) => {
     try {
         const { email, password } = req.body;
-
+        
         // Find the user
         const user = await usersCollection.findOne({ email });
+        console.log(user);
         if (!user) {
             return res.status(400).json({ message: "User not found." });
         }
 
         // Compare passwords
-        const match = await bcrypt.compare(password, user.password);
-        if (!match) {
-            return res.status(400).json({ message: "Invalid password." });
+      const match = await user.comparePassword(password); 
+      console.log(match)
+        if (!match) { 
+            return res.status(400).json({ message: "Invalid email or password." });
         }
+        
 
         // Create a JWT token
         const token = jwt.sign({ userId: user._id }, JWT_SECRET, {
@@ -96,9 +99,7 @@ function authenticateToken(req, res, next) {
 const signupuser=async (req, res) => {
     try {
         const { name, email, password } = req.body;
-        // Hash the password
-        const saltRounds = 10;
-        const hashedPassword = await bcrypt.hash(password, saltRounds);
+        const hashedPassword=password;
 
         // Check if the user already exists
         const existingUser = await usersCollection.findOne({ email });
