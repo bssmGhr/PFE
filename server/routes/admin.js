@@ -1,4 +1,4 @@
-const { JWT_SECRET, database1 } = require("../config/db");
+const { JWT_SECRET, database1 } = require("../../serveradmin/config/db");
 const express = require("express");
 const router = express.Router();
 
