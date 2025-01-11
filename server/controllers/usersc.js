@@ -41,8 +41,21 @@ const usersputid=async (req, res) => {
         res.status(400).send(error);
     }
 }
+
+const usersdeleteid=async (req, res) => {
+    try {
+        const user = await User.findByldAndDelete(req.params.id);
+        if (luser) {
+            return res.status(404).send();
+        }
+        res.status(200).send(user);
+    } catch (error) {
+        res.status(500).send(error);
+    }
+}
 module.exports={
     userspost,
     usersget,
     usersputid,
+    usersdeleteid
 }
