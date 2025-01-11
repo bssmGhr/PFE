@@ -6,7 +6,7 @@ function Contact() {
             <h2>Contact Us</h2>
             <p>Address: 123 Fitness Lane, [City], [Country]</p>
             <p>Phone: +123-456-7890</p>
-            <p>Email: info@gymname.com</p>
+            <p>Email: info@salledesport.com</p>
 
             <h3>Send Us a Message</h3>
             <form className="contact-form">
